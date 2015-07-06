@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Thomas Gieling Launches Site"
 date: 2015-07-06
 ---
