@@ -1,2 +1,4 @@
-name: Hank Quinlan, Horrible Cop
+name: Thomas Gieling
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
