@@ -1,0 +1,225 @@
+/*
+Product Components
+
+Main components used throughout the site
+
+Styleguide 4
+*/
+
+/*
+Hockey Cards
+
+The header navigation of the site
+
+Markup:
+<div class="container"> 
+<div class="product-tile col-md-3">
+	<div class="hidden" data-scope="products" data-context="id:S77765;sku:S77765;name:SST Beckenbauer Schoenen;model:KCD98"></div>
+	<div id="product-S77765" class="hockeycard originals " data-url="http://www.adidas.nl/on/demandware.store/Sites-adidas-NL-Site/nl_NL/Search-GetProductVariations?pid=PRODUCTID" data-target="S77765" data-colorid="S77765" data-scope="S77765" data-component="" style="z-index: 0;">
+		<div class="innercard  col">
+			<div class="close-container"><a class="close close-button"></a></div>
+			<span class="aditype"></span>
+			<div class="badge new"><span class="badge-text">Nieuw</span></div>
+			<div class="image">
+				<a href="http://www.adidas.nl/sst-beckenbauer-schoenen/S77765.html" data-component="" class="link-S77765 lazybg_loaded">
+					<img class="show lazyload" data-original="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77765_01_standard.jpg?sw=230&amp;sfrm=jpg" data-stackmobileview="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77765_01_standard.jpg?sw=280&amp;sfrm=jpg" data-othermobileview="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77765_01_standard.jpg?sw=230&amp;sfrm=jpg" height="230" width="230" src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77765_01_standard.jpg?sw=230&amp;sfrm=jpg"> 
+				</a>
+			</div>
+			<div class="product-info-wrapper stack track" data-track="plp product" data-context="article:S77765">
+				<div class="product-info-inner clear clearfix">
+					<div class="color-count cta-link">2 kleuren</div>
+					<div class="color-carousel">
+						<div class="jcarousel-wrapper cc-container">
+							<div class="jcarousel" data-component="common/JCarouselControled" data-perpage="3" data-wrap="circular" data-jcarousel="true">
+								<ul style="left: 0px; top: 0px;">
+									<li data-context="colors:Green / Green / White">
+										<div class="color-swatch active lazybg_loaded">
+											<img class="lazyload" data-original="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77765_01_standard.jpg?sw=60&amp;sfrm=jpg" height="50" width="50" data-src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77765_01_standard.jpg?sw=230&amp;sfrm=jpg" data-url="http://www.adidas.nl/sst-beckenbauer-schoenen/S77765.html" data-target="S77765" data-colorid="S77765" data-salesprice="€ 100,00" data-salespricevalue="100.0" src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77765_01_standard.jpg?sw=60&amp;sfrm=jpg">
+										</div>
+									</li>
+									<li data-context="colors:Core Black / Core Black / White">
+										<div class="color-swatch lazybg_loaded">
+											<img class="lazyload" data-original="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77766_01_standard.jpg?sw=60&amp;sfrm=jpg" height="50" width="50" data-src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77766_01_standard.jpg?sw=230&amp;sfrm=jpg" data-url="http://www.adidas.nl/sst-beckenbauer-schoenen/S77766.html" data-target="S77765" data-colorid="S77766" data-salesprice="€ 100" data-salespricevalue="100.0" src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-products/nl_NL/v1438136211619/zoom/S77766_01_standard.jpg?sw=60&amp;sfrm=jpg">
+										</div>
+									</li>
+								</ul>
+							</div>
+							<a data-jcarousel-control="true" href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true" style="display: none;"></a>
+							<a data-jcarousel-control="true" href="#" class="jcarousel-control-next inactive" data-jcarouselcontrol="true" style="display: none;"></a>
+						</div>
+					</div>
+				</div>
+				<div class="separator"></div>
+				<a href="http://www.adidas.nl/sst-beckenbauer-schoenen/S77765.html" class="link-S77765 product-link clearfix" data-context="name:SST Beckenbauer Schoenen">
+					<span class="title">SST Beckenbauer Schoenen</span>
+					<span class="subtitle">Heren Originals</span>
+				</a>
+				<div class="clear clearfix price-without-rating">
+					<span class="price discount">
+						<span class="currency-symbol">€</span>
+						<span class="value" id="salesprice-C77597">100</span>
+						<span class="price original">
+							<span class="currency-symbol">€</span>
+							<span class="value" id="salesprice-C77597">100</span>
+						</span>
+					</span>
+					<div class="rating"><span class="count rating_4">1</span></div>						
+				</div>
+				<div class="buttons clearfix" data-context="status:IN STOCK">
+					<div id="S77765-buttons" class="button-container">
+						<button class="add-to-cart-button" data-action="getsizes">
+							<span class="text">						
+								In winkelwagen
+							</span>
+						</button>
+					</div>
+					<div id="S77765-cartaction" class="cartaction"></div>
+					<div id="S77765-loading" class="add-to-cart addtocartbutton button-atb button-full-width cart-loading button-loading">
+						<span class="text">
+							In winkelwagen
+						</span>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+Styleguide 4.1
+
+*/
+
+.product-tile {
+	.badge {
+		top:$hc-badge-top;
+	}
+	.product-info-wrapper {
+		padding:0 5px;
+	}
+	.color-count {
+		font-family: $hc-more-colors-font;
+		color: $hc-more-colors-color;
+		font-size:	$hc-more-colors-font-size;
+		line-height: 2em;
+	}
+	.color-carousel, .buttons {
+		display: none;
+	}
+	.separator {
+		border-bottom: $hc-separator-border;
+	}
+	.product-link {
+		margin:10px 0;
+		display: block;
+	}
+	.title {
+		color: $hc-title-color;
+		font-family: $hc-title-font-family;
+		font-size:$hc-title-font-size;
+		display:block;
+		line-height:$hc-title-line-height;
+	}
+	.subtitle {
+		color: $hc-subtitle-color;
+		font-family: $hc-subtitle-font-family;
+		font-size:$hc-subtitle-font-size;
+		line-height:$hc-subtitle-line-height;
+		display:block;
+	}
+
+	.count {
+		width: 61px;
+		height: 9px;
+		background: $hc-count-background;
+		font-size: 12px;
+		line-height: 17px;
+		color: $hc-count-color;
+		padding: 0 0 0 65px;
+	}
+
+	.price {
+		float:left;
+		.price {
+			float:none;
+		}
+	}
+	.rating {
+		float:right;
+		margin-bottom: 2px;
+	}
+	 
+	.rating_0_0,
+	.rating_0_1,
+	.rating_0_2,
+	.rating_0_3,
+	.rating_0_4 {
+		background-position: 0 -99px;
+	}
+
+	.rating_0_5,
+	.rating_0_6,
+	.rating_0_7,
+	.rating_0_8,
+	.rating_0_9,
+	.rating_1,
+	.rating_1_0,
+	.rating_1_1,
+	.rating_1_2,
+	.rating_1_3,
+	.rating_1_4 {
+		background-position: 0 -79px;
+	}
+
+	.rating_1_5,
+	.rating_1_6,
+	.rating_1_7,
+	.rating_1_8,
+	.rating_1_9,
+	.rating_2,
+	.rating_2_0,
+	.rating_2_1,
+	.rating_2_2,
+	.rating_2_3,
+	.rating_2_4 {
+		background-position: 0 -59px;
+	}
+
+	.rating_2_5,
+	.rating_2_6,
+	.rating_2_7,
+	.rating_2_8,
+	.rating_2_9,
+	.rating_3,
+	.rating_3_0,
+	.rating_3_1,
+	.rating_3_2,
+	.rating_3_3,
+	.rating_3_4 {
+		background-position: 0 -39px;
+	}
+
+	.rating_3_5,
+	.rating_3_6,
+	.rating_3_7,
+	.rating_3_8,
+	.rating_3_9,
+	.rating_4,
+	.rating_4_0,
+	.rating_4_1,
+	.rating_4_2,
+	.rating_4_3,
+	.rating_4_4 {
+		background-position: 0 -19px;
+	}
+
+	.rating_4_5,
+	.rating_4_6,
+	.rating_4_7,
+	.rating_4_8,
+	.rating_4_9,
+	.rating_5,
+	.rating_5_0 {
+		background-position: 0 1px;
+	}
+
+}

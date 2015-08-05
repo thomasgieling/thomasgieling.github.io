@@ -1,0 +1,600 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font_color_2"
+			],
+			[
+				"defa",
+				"default-font"
+			],
+			[
+				"def",
+				"default-font"
+			],
+			[
+				"standar",
+				"standard-icon-button"
+			],
+			[
+				"input",
+				"input_border_color"
+			],
+			[
+				"ad",
+				"adiHausRegular"
+			],
+			[
+				"adida",
+				"adidas-styleguide"
+			],
+			[
+				"prim",
+				"primary-color"
+			],
+			[
+				"dropdown",
+				"dropdown-menu"
+			],
+			[
+				"color",
+				"color-stops"
+			],
+			[
+				"background-c",
+				"background-color-from"
+			],
+			[
+				"bac",
+				"background-color-to"
+			],
+			[
+				"back",
+				"background-color-from"
+			],
+			[
+				"icomoo",
+				"icomoonregular"
+			],
+			[
+				"adiN",
+				"adiNeueRegular"
+			],
+			[
+				"adi",
+				"adihaus"
+			],
+			[
+				"adin",
+				"adineuebold"
+			],
+			[
+				"error",
+				"errorThrown"
+			],
+			[
+				"data",
+				"data-launchdate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/sass/foundation-reebok.scss",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/components/shared/_hockeycard.scss",
+			"settings":
+			{
+				"buffer_size": 8173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/components/adidas/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 13539,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/components/reebok/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 21109,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "Package Control: instal",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/gielitho/Development/adidas-online/grunt-build",
+		"/Users/gielitho/Development/adidas-online/grunt-build/app",
+		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass",
+		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components",
+		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/adidas",
+		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/reebok",
+		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/shared"
+	],
+	"file_history":
+	[
+		"/Users/gielitho/Development/adidas-online/angular/angular-phonecat/app/bower_components/bootstrap/dist/css/bootstrap.css",
+		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/adidas/_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/foundation-adidas.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/adidas/_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/_hockeycard.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/_forms.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/adidas/_mixins.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/mixins/_clearfix.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/adidas/_navigation.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/_typography.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/reebok/_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/Gruntfile.js",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/foundation-reebok.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/css/foundation-adidas.css",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/_functions.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/_grid.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/mixins/_grid-framework.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/_mixins.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/mixins/_grid.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/node_modules/sc5-styleguide/lib/dist/sass/app.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/shared/_navigation.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sc5-custom/custom-colors-reebok.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sc5-custom/custom-colors-adidas.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/node_modules/sc5-styleguide/lib/dist/sass/_styleguide_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/node_modules/sc5-styleguide/lib/dist/sass/_styleguide_custom_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_mixins-reebok.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_mixins-adidas.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_variables-reebok.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_variables-adidas.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_forms.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_typography.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_fonts-adidas.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_fonts-reebok.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_functions.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_mixins.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_tooltip.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/node_modules/sc5-styleguide/lib/app/index.html",
+		"/Users/gielitho/Development/adidas-online/sc5/node_modules/sc5-styleguide/lib/dist/index.html",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/adidas-styleguide/sass/components/_forms.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/adidas-styleguide/sass/components/_mixins.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/adidas-styleguide/sass/components/_typography.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/adidas-styleguide/sass/components/_variables-reebok.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/adidas-styleguide/sass/components/_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/adidas-styleguide/styleguide.json",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/reebok-styleguide/sass/components/_forms.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/reebok-styleguide/sass/components/_mixins.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/reebok-styleguide/sass/components/_typography.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/reebok-styleguide/sass/components/_variables-reebok.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/reebok-styleguide/sass/components/_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/generated/reebok-styleguide/styleguide.json",
+		"/Users/gielitho/Development/adidas-online/sc5/node_modules/sc5-styleguide/lib/app/sass/app.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/foundation.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_variables.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_buttons.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/output/index.html",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_sprites.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/output/images/Header_images_basketball.jpg",
+		"/Users/gielitho/Development/adidas-online/sc5/app/images/Header_images_basketball.jpg",
+		"/Users/gielitho/Development/adidas-online/sc5/app/images/Header_images_NEO.jpg",
+		"/Users/gielitho/Development/adidas-online/sc5/output/images/Header_images_NEO.jpg",
+		"/Users/gielitho/Development/adidas-online/webdriverio-test/Gruntfile.js",
+		"/Users/gielitho/Development/adidas-online/webdriverio-test/test.js",
+		"/Users/gielitho/Development/adidas-online/webdriverio-test/index.js",
+		"/Users/gielitho/Development/adidas-online/webdriverio-test/mocha/test.js",
+		"/Users/gielitho/Development/adidas-online/testing/.gitignore",
+		"/Users/gielitho/Development/adidas-online/testing/integration-test.coffee",
+		"/Users/gielitho/Development/adidas-online/test-framework/package.json",
+		"/Users/gielitho/Development/adidas-online/sc5/lib/shot-wrapper.js",
+		"/Users/gielitho/Development/adidas-online/sc5/package.json",
+		"/Users/gielitho/Development/adidas-online/sc5/tests/test.js",
+		"/Users/gielitho/Development/adidas-online/sc5/css/foundation.min.css",
+		"/Users/gielitho/Development/adidas-online/sc5/css/foundation.minified.css",
+		"/Users/gielitho/Development/adidas-online/sc5/output/styleguide.css",
+		"/Users/gielitho/Development/adidas-online/sc5/css/foundation.css",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_fonts.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/components/_colors.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/app/sass/_bootstrap.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/output/foundation.css",
+		"/Users/gielitho/Development/adidas-online/sc5/sass/foundation.css",
+		"/Users/gielitho/Development/adidas-online/sc5/sass/components/_typography.scss",
+		"/Users/gielitho/Development/adidas-online/sc5/sass/foundation.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/template/index.html",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/sass/foundation.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/sass/components/_typography.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/css/foundation.css",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/styleguide/index.html",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/styleguide/public/WARNING.txt",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/css/expanded/foundation.css",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/css/style.css",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/stylesheets/bootstrap/_type.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/styleguide-template/index.html",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/sass/components/_variables.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/stylesheets/bootstrap.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/sass/components/_normalize.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/sass/styleguide.md",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/css/expanded/foundation.css.map",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/sass/components/_fonts.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/sass/components/_print.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/stylesheets/bootstrap/_normalize.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/stylesheets/bootstrap/_scaffolding.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/Gruntfile.js",
+		"/Users/gielitho/Development/adidas-online/sass/_typography.scss",
+		"/Users/gielitho/Development/adidas-online/grunt-sass/stylesheets/_bootstrap.scss",
+		"/Users/gielitho/Development/adidas-online/sass/_fonts.scss",
+		"/Users/gielitho/Development/adidas-online/sass/foundation.scss",
+		"/Users/gielitho/Development/adidas-online/Gruntfile.js",
+		"/Users/gielitho/Development/adidas-online/styleguide/index.html",
+		"/Users/gielitho/Development/adidas-online/sass/button.scss",
+		"/Users/gielitho/Development/adidas-online/sass/fonts.scss",
+		"/Users/gielitho/Development/adidas-online/sass/style.scss",
+		"/Users/gielitho/Development/adidas-online/sass/paragraph.scss",
+		"/Users/gielitho/Development/adidas-online/css/style.doc.css",
+		"/Users/gielitho/Development/adidas-online/css/style.css",
+		"/Users/gielitho/Development/adidas-online/package.json",
+		"/Users/gielitho/Development/adidas-online/css/styleguide.md",
+		"/Users/gielitho/Development/adidas-online/styleguide-template/index.html",
+		"/Users/gielitho/Development/adidas-online/style/style.css",
+		"/Users/gielitho/Development/adidas-online/style/style.css.map",
+		"/Users/gielitho/Development/adidas-online/styles/test.scss",
+		"/Users/gielitho/Documents/RFC Releases/May/personalization/CrossFiit.json",
+		"/Users/gielitho/Downloads/icomoon (2)/demo-files/demo.css",
+		"/Users/gielitho/Documents/Discovery/Bootstrap/bootstrap.html",
+		"/Users/gielitho/Downloads/icomoon (1)/demo-files/demo.css",
+		"/Users/gielitho/Downloads/icomoon/demo-files/demo.css",
+		"/Users/gielitho/Library/Caches/TemporaryItems/Outlook Temp/CrossFiit.json",
+		"/Users/gielitho/Downloads/icomoon/style.css",
+		"/Users/gielitho/Documents/RFC Releases/April/Personalization/samplePDOt_inclPrices.json",
+		"/Users/gielitho/Desktop/adidas Officiële Website - Bestel adidas online   adidas.nl.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/gielitho/Development/adidas-online/sc5/",
+			"/Users/gielitho/Development/adidas-online/sc5/sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".innercard ",
+			"font_color_2",
+			"#40403a",
+			".col-md-3",
+			".col-lg-3",
+			"grid",
+			"wrapper",
+			"price",
+			".sg.wrapper",
+			"primary-action-color",
+			"section-partial",
+			".sg.top-nav-menu",
+			".sg.top-nav-menu > li > a .ref",
+			"adiHausBold",
+			"adiHausRegular",
+			"px",
+			"$default",
+			"$standard",
+			"zindex-tooltip",
+			"$zindex-tooltip",
+			"'css",
+			"autoprefixer",
+			"$spritesheet-sprites",
+			"gulp",
+			"adihaus",
+			"adineue",
+			"gly",
+			"Glyphicons Halflings",
+			"font",
+			"font_color_",
+			"color_font_",
+			";\n",
+			"{{markup}}",
+			"modifier",
+			"text-emphasis-variant",
+			"body",
+			"font",
+			"icomoonregular",
+			"max-width",
+			".carousel-wrapper",
+			"Carousel",
+			"this.el",
+			"category",
+			"<li",
+			"li>",
+			"transition"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"dinbold",
+			"dinmedium",
+			"$default-font",
+			"$default",
+			"standard",
+			"headline",
+			"bg_color_",
+			"font_color_",
+			"<div",
+			"div>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/sass/foundation-reebok.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/sass/components/shared/_hockeycard.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7038,
+								7038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1625.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/sass/components/adidas/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13539,
+								13539
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4500.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/sass/components/reebok/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21075,
+								21090
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4591.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "grunt-build.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 701.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
