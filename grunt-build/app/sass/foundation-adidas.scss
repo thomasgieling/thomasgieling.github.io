@@ -2,6 +2,7 @@
 @import "components/shared/_mixins.scss";
 @import "components/adidas/_mixins.scss";
 @import "components/shared/_normalize.scss";
+@import "components/shared/_utilities.scss";
 @import "components/shared/_grid.scss";
 @import "components/adidas/_fonts.scss";
 @import "components/shared/_sprites.scss";
@@ -9,5 +10,5 @@
 @import "components/shared/_typography.scss";
 @import "components/shared/_forms.scss";
 @import "components/shared/_tooltip.scss";
-@import "components/adidas/_navigation.scss";
+@import "components/adidas/_headerfooter.scss";
 @import "components/shared/_hockeycard.scss";

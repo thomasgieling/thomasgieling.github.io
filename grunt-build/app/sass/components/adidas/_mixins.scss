@@ -110,6 +110,7 @@
     font-size: $button-icon-font-size;
     font-family:$icomoon;
     position: relative;
+    line-height: 0.5em;
   }
 }
 
@@ -171,13 +172,10 @@
 
   &:after {
     content: $icon;
-    top: 0.0625em;
     margin-left: 0.875em;
-    width: 1em;
-    height: 1em;
     font-size: 1em;
     font-family:$icomoon;
-    position: relative;
+    line-height: 0.5em;
   }
 }
 
