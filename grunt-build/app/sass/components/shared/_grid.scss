@@ -86,3 +86,8 @@
 .main {
   min-height: 56.28vw;
 }
+@media screen and (min-width: 1366px) {
+  .main {
+    min-height: 830px;
+  }
+}

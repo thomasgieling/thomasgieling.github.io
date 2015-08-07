@@ -93,7 +93,19 @@ Styleguide 5.1
 			font-size: 3.514vw;
 		}
 	}
+	    
 
+}
+@media screen and (min-width: 1366px) {
+	.masthead-container {
+		width: 1366px;
+    	margin: 0 auto;
+    	height: 497px;
+
+    	.headercover {
+    		top: 497px;
+    	}
+	}
 }
 
 /*
