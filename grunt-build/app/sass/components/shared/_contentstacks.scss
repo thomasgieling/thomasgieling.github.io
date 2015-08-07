@@ -1,0 +1,97 @@
+/*
+Global Content Components
+
+Main components used throughout the site
+
+Styleguide 5
+*/
+
+/*
+Wallpaper
+
+The wallpaper displayed on the Homepage, CLP or PLP
+
+Markup:
+<div class="home-page-slot-hero hp-slot-1">
+	<div class="contentstack clearfix">
+    	<div class="masthead-container">
+			<img class="masthead-image" src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-NL-Library/nl_NL/dwae2f403e/brand/images/2015/06/adidas-p-football-aw15-double-masthead-x15-ace15-order-hp_70463.jpg?sw=1366&amp;sh=830&amp;sm=fit&amp;cx=0&amp;cy=0&amp;cw=1366&amp;ch=830&amp;sfrm=jpg">
+			<div class="masthead  double-masthead-sides light">
+				<div class="left-masthead">
+					<div class="headline"><span class="h1">Cause Chaos</span></div>
+					<div class="cta-container">
+						<div class="masthead-cta">
+				   			<a class="button" href="/x?grid=true" target="" data-linktype="link" manual_cm_sp="slot-1-_-masthead-brand_adidas-p-football-aw15-double-masthead-x15-ace15-shop-hp-_-shop x15">SHOP X15</a>
+						</div>
+			 		</div>
+		 		</div>
+		  		<div class="right-masthead">
+					<div class="headline"><span class="h1">Control Everything</span></div>
+					<div class="cta-container">
+						<div class="masthead-cta">
+							<a class="button" href="/ace?grid=true" target="" data-linktype="link" manual_cm_sp="slot-1-_-masthead-brand_adidas-p-football-aw15-double-masthead-x15-ace15-shop-hp-_-shop ace15">SHOP ACE15</a>
+						</div>
+					</div>
+		  		</div>
+			</div>
+			<div class="headercover"></div>
+		</div>
+	 </div>
+   </div>
+</div>
+
+Styleguide 5.1
+*/
+.masthead-container{
+	position:relative;
+	width:100%;
+
+	.masthead-image {
+		position:absolute;
+		top:0;
+		width: 100%; 
+		height: auto;
+	}
+	.masthead {
+		position:relative;
+		top:3.66vw;
+		max-width:950px;
+		margin: 0 auto;
+		padding: 0 10px;
+
+		> div {
+			float:left;
+			width:50%
+		}
+		.right-masthead {
+			text-align: right;
+		}
+		&.light {
+			.h1 {
+				color:#FFF;
+			}
+		}
+	}
+
+	.headercover {
+		position:absolute;
+		top:400px;
+		width:100%;
+		background-image: -moz-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 64%,rgba(255,255,255,1) 100%);
+	    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,0)),color-stop(64%,rgba(255,255,255,1)),color-stop(100%,rgba(255,255,255,1)));
+	    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 64%,rgba(255,255,255,1) 100%);
+	    background-image: -o-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 64%,rgba(255,255,255,1) 100%);
+	    background-image: -ms-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 64%,rgba(255,255,255,1) 100%);
+	    background-image: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(255,255,255,1) 64%,rgba(255,255,255,1) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#ffffff',GradientType=0)
+	}
+
+	@media screen and (max-width: 1366px) {
+		.h1 {
+			font-size: 3.514vw;
+		}
+	}
+
+}
+
+
