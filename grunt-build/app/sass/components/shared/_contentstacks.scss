@@ -45,6 +45,7 @@ Styleguide 5.1
 .masthead-container{
 	position:relative;
 	width:100%;
+	height:36.384vw;
 
 	.masthead-image {
 		position:absolute;
@@ -95,4 +96,34 @@ Styleguide 5.1
 
 }
 
+/*
+Feature Cards
+
+Feature cards are used on the Homepage and CLP
+
+Markup:
+<div class="contentstack clearfix container">
+   <div class="feature-cards-wrapper clearfix">
+      <div class="feature-card col-md-6">
+         <a class="feature-cards-image" href="http://www.adidas.nl/heren?prefn1=technologies&amp;prefv1=Climachill">
+         	<img src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-NL-Library/nl_NL/dw1af1fc10/brand/images/2015/03/adidas-p-training-ss15-climachill-mens-tshirt-fc-double_58231.jpg?sw=470&amp;sh=264&amp;sm=fit&amp;cx=0&amp;cy=0&amp;cw=470&amp;ch=264&amp;sfrm=jpg" alt="" title="">
+         </a>
+         <a class="h4" href="http://www.adidas.nl/heren?prefn1=technologies&amp;prefv1=Climachill">totale temperatuurcontrole</a><br/>
+         <a href="http://www.adidas.nl/heren?prefn1=technologies&amp;prefv1=Climachill">Shop Climachill voor heren</a>
+      </div>
+      <div class="feature-card col-md-6">
+         <a class="feature-cards-image" href="/techfit">
+	         <img src="http://demandware.edgesuite.net/sits_pod14-adidas/dw/image/v2/aagl_prd/on/demandware.static/Sites-adidas-NL-Site/Sites-adidas-NL-Library/nl_NL/dwa3aa94ee/brand/images/2015/07/adidas-p-training-fw15-karim-techfit_71379.jpg?sw=470&amp;sh=264&amp;sm=fit&amp;cx=1&amp;cy=0&amp;cw=468&amp;ch=264&amp;sfrm=jpg" alt="" title="">
+         </a>
+         <a class="h4" href="/techfit">kracht van binnenuit</a><br/>
+         <a href="/techfit">Ontdek de Techfit collectie</a>
+      </div>
+   </div>
+</div>
+
+Styleguide 5.2
+*/
+.feature-card {
+	text-align:center;
+}
 
