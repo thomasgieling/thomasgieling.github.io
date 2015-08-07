@@ -83,3 +83,6 @@
   @include make-grid(lg);
 }
 
+.main {
+  min-height: 100vh;
+}
