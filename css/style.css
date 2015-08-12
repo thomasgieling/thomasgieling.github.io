@@ -13,9 +13,14 @@ header, footer {
 }
 header {
 	border-bottom: 1px solid #222;
-    background: url('../img/startup-photos.jpg') 0px -673px;
-    background-size: 100%;
+    background: url('../img/startup-photos.jpg');
+    background-size: 1366px;
     background-repeat: no-repeat;
+}
+@media screen and (min-width: 1366px) {
+	header {
+		background-size: 100%;
+	}
 }
 .logo {
 	color: #ECECEC;
@@ -100,7 +105,7 @@ header nav ul a {
 .footer-top {
 	width:100%;
 	height:120px;
-	background-color:#222; 
+	background-color:rgb(52, 67, 86); 
 }
 .footer-top .logo-container{
 	width: 222px;
@@ -125,7 +130,7 @@ header nav ul a {
     left: -3px;
 }
 .footer-main {
-	background-color: #555;
+	background-color: rgb(84, 107, 134);
 	height: 250px;
 	text-align: center;
 	padding-top:65px;
