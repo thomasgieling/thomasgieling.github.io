@@ -6,39 +6,14 @@
 			<link rel="stylesheet" type="text/css" href="/css/style.css">
 		</head>
 		<body>
-			<header>
-
-				<div class="logo">
-					<div class="first">T</div>
-					<div class="divider"></div>
-					<div class="second">G</div>
-				</div>
-				<nav>
-					<ul>
-						<li><a href="/">Home</a></li>
-			        	<li><a href="/about">About</a></li>
-		        		<li><a href="/blog">Blog</a></li>
-					</ul>
-				</nav>
-			</header>
 			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-				<div class="footer-top">
-					<div class="logo-container">
-						<div class="firstname">Thomas</div>
-						<div class="logo">
-							<div class="first">T</div>
-							<div class="divider"></div>
-							<div class="second">G</div>
-						</div>
-						<div class="lastname">Gieling</div>
+				<header>
+
+					<div class="logo">
+						<div class="first">T</div>
+						<div class="divider"></div>
+						<div class="second">G</div>
 					</div>
-				</div>
-				<div class="footer-main">
 					<nav>
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -46,7 +21,38 @@
 			        		<li><a href="/blog">Blog</a></li>
 						</ul>
 					</nav>
-				</div>
-			</footer>
+					<div class="title">
+						<h1>{{ page.title }}</h1>
+						<p>{{ paga.subtitle }}</p>
+					</div>
+				</header>
+				<div class="content">
+				
+				{{ content }}
+				
+				</div><!-- /.container -->
+				<footer>
+					<div class="footer-top">
+						<div class="logo-container">
+							<div class="firstname">Thomas</div>
+							<div class="logo">
+								<div class="first">T</div>
+								<div class="divider"></div>
+								<div class="second">G</div>
+							</div>
+							<div class="lastname">Gieling</div>
+						</div>
+					</div>
+					<div class="footer-main">
+						<nav>
+							<ul>
+								<li><a href="/">Home</a></li>
+					        	<li><a href="/about">About</a></li>
+				        		<li><a href="/blog">Blog</a></li>
+							</ul>
+						</nav>
+					</div>
+				</footer>
+			</div>
 		</body>
 	</html>

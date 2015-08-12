@@ -7,15 +7,19 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 	height: 100px;
 }
+.container {
+	max-width: 1366px;
+	margin:0 auto;
+}
 header, footer {
 	width:100%;
-	height: 150px;
 }
 header {
 	border-bottom: 1px solid #222;
     background: url('../img/startup-photos.jpg');
     background-size: 1366px;
     background-repeat: no-repeat;
+	height: 500px;
 }
 @media screen and (min-width: 1366px) {
 	header {
@@ -64,7 +68,8 @@ header {
 }
 header nav {
 	float:right;
-	margin: 50px 100px 0 0;
+	margin: 0px 100px 0 0;
+	clear:both;
 }
 header nav ul {
 	list-style: none;
@@ -102,10 +107,16 @@ header nav ul a {
     /* Standard */
     transition: all .2	s linear;
 }
+header .title {
+	color: #FFF;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
 .footer-top {
 	width:100%;
 	height:120px;
-	background-color:rgb(52, 67, 86); 
+	background-color: rgb(84, 107, 134); 
 }
 .footer-top .logo-container{
 	width: 222px;
@@ -130,7 +141,7 @@ header nav ul a {
     left: -3px;
 }
 .footer-main {
-	background-color: rgb(84, 107, 134);
+	background-color:rgb(52, 67, 86);
 	height: 250px;
 	text-align: center;
 	padding-top:65px;
@@ -160,6 +171,6 @@ header nav ul a {
 
 
 
-.container {
+.content {
 	margin:50px;
 }
