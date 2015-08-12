@@ -21,16 +21,16 @@ header {
     background-repeat: no-repeat;
 	height: 500px;
 }
-header .bg-image-1 {
+header.bg-image-1 {
 	background: url('../img/bg-image-1.jpg');
 }
-header .bg-image-2 {
+header.bg-image-2 {
 	background: url('../img/bg-image-2.jpg');
 }
-header .bg-image-3 {
+header.bg-image-3 {
 	background: url('../img/bg-image-3.jpg');
 }
-header .bg-image-4 {
+header.bg-image-4 {
 	background: url('../img/bg-image-4.jpg');
 }
 @media screen and (min-width: 1366px) {
