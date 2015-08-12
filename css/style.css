@@ -16,10 +16,22 @@ header, footer {
 }
 header {
 	border-bottom: 1px solid #222;
-    background: url('../img/startup-photos.jpg');
+    background: url('../img/bg-image-1.jpg');
     background-size: 1366px;
     background-repeat: no-repeat;
 	height: 500px;
+}
+header .bg-image-1 {
+	background: url('../img/bg-image-1.jpg');
+}
+header .bg-image-2 {
+	background: url('../img/bg-image-2.jpg');
+}
+header .bg-image-3 {
+	background: url('../img/bg-image-3.jpg');
+}
+header .bg-image-4 {
+	background: url('../img/bg-image-4.jpg');
 }
 @media screen and (min-width: 1366px) {
 	header {
@@ -142,7 +154,7 @@ header .title {
 }
 .footer-main {
 	background-color:rgb(52, 67, 86);
-	height: 250px;
+	height: 85px;
 	text-align: center;
 	padding-top:65px;
 }

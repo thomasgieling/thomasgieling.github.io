@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Test if links added to the page using javascript is indexed"
+subtitle: 2015-08-11
 date: 2015-08-11
+image: bg-image-2
 ---
 
 This post is to test how and if google indexes and follows links that are added to the page via javascript.
