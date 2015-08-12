@@ -11,8 +11,14 @@ header, footer {
 	width:100%;
 	height: 150px;
 }
+header {
+	border-bottom: 1px solid #222;
+    background: url('../img/startup-photos.jpg') 0px -673px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .logo {
-	color: #333;
+	color: #ECECEC;
     border: solid 3px;
     width: 60px;
     height: 60px;
@@ -58,13 +64,13 @@ header nav {
 header nav ul {
 	list-style: none;
 }
-header nav ul li {
+header nav li {
 	display: inline-block;
     padding: 8px;
-    background-color: #FFF;
+    background-color: rgba(255,255,255,0.3);
     min-width: 100px;
     text-align: center;
-    border: solid 1px #000;
+    border: solid 1px #ECECEC;
     -moz-transition: all .2s linear;
     /* WebKit */
     -webkit-transition: all .2s linear;
@@ -81,7 +87,7 @@ header nav ul li:hover a {
 	color:#FFF;
 }
 header nav ul a {
-	color: #333;
+	color: #ECECEC;
 	text-decoration: none;
 	-moz-transition: all .2s linear;
     /* WebKit */
@@ -132,7 +138,7 @@ header nav ul a {
 .footer-main nav li:after {
 	content: '-';
 	color: #ECECEC;
-	margin:0 10px;
+	margin:0 4px 0 10px;
 }
 .footer-main nav li:last-child:after {
 	content: '';
@@ -144,4 +150,11 @@ header nav ul a {
 }
 .footer-main nav ul li a:hover {
 	color:#FFF;
+}
+
+
+
+
+.container {
+	margin:50px;
 }
