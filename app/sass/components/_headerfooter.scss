@@ -2,7 +2,7 @@ header {
     background: url('../img/bg-image-1.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-size:1366px;
+    background-size:100%    ;
 	height: (1200/1366)*500px;
 }
 header.bg-image-1 {
@@ -85,9 +85,13 @@ header nav ul a {
 header .title {
 	color: $header-font-color;
     text-align: center;
-    top: 250px;
     clear: both;
-    padding-top: 70px;
+    padding-top: 120px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+    h1, p {
+        font-weight:bold;
+    }
 }
 .footer-top {
 	width:100%;
