@@ -83,38 +83,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/sass/foundation-reebok.scss",
-			"settings":
-			{
-				"buffer_size": 473,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/sass/components/shared/_hockeycard.scss",
-			"settings":
-			{
-				"buffer_size": 8173,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/sass/components/adidas/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 13539,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/sass/components/reebok/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 21109,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -165,16 +133,35 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/gielitho/Development/adidas-online/grunt-build",
-		"/Users/gielitho/Development/adidas-online/grunt-build/app",
-		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass",
-		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components",
-		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/adidas",
-		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/reebok",
-		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/shared"
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/js",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/adidas",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared"
 	],
 	"file_history":
 	[
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/adidas/_variables.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/adidas/_headerfooter.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_contentstacks.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_utilities.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/index.html",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/index2.html",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_grid.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/foundation-adidas.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_dropdowns.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/mixins/_clearfix.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_normalize.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_hockeycard.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/mixins/_grid.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_mixins.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/shared/_typography.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/adidas/_mixins.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/.gitignore",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/components/reebok/_variables.scss",
+		"/Users/gielitho/Development/thomasgieling.github.io/grunt-build/app/sass/foundation-reebok.scss",
 		"/Users/gielitho/Development/adidas-online/angular/angular-phonecat/app/bower_components/bootstrap/dist/css/bootstrap.css",
 		"/Users/gielitho/Development/adidas-online/grunt-build/app/sass/components/adidas/_variables.scss",
 		"/Users/gielitho/Development/adidas-online/sc5/app/sass/foundation-adidas.scss",
@@ -283,26 +270,7 @@
 		"/Users/gielitho/Development/adidas-online/Gruntfile.js",
 		"/Users/gielitho/Development/adidas-online/styleguide/index.html",
 		"/Users/gielitho/Development/adidas-online/sass/button.scss",
-		"/Users/gielitho/Development/adidas-online/sass/fonts.scss",
-		"/Users/gielitho/Development/adidas-online/sass/style.scss",
-		"/Users/gielitho/Development/adidas-online/sass/paragraph.scss",
-		"/Users/gielitho/Development/adidas-online/css/style.doc.css",
-		"/Users/gielitho/Development/adidas-online/css/style.css",
-		"/Users/gielitho/Development/adidas-online/package.json",
-		"/Users/gielitho/Development/adidas-online/css/styleguide.md",
-		"/Users/gielitho/Development/adidas-online/styleguide-template/index.html",
-		"/Users/gielitho/Development/adidas-online/style/style.css",
-		"/Users/gielitho/Development/adidas-online/style/style.css.map",
-		"/Users/gielitho/Development/adidas-online/styles/test.scss",
-		"/Users/gielitho/Documents/RFC Releases/May/personalization/CrossFiit.json",
-		"/Users/gielitho/Downloads/icomoon (2)/demo-files/demo.css",
-		"/Users/gielitho/Documents/Discovery/Bootstrap/bootstrap.html",
-		"/Users/gielitho/Downloads/icomoon (1)/demo-files/demo.css",
-		"/Users/gielitho/Downloads/icomoon/demo-files/demo.css",
-		"/Users/gielitho/Library/Caches/TemporaryItems/Outlook Temp/CrossFiit.json",
-		"/Users/gielitho/Downloads/icomoon/style.css",
-		"/Users/gielitho/Documents/RFC Releases/April/Personalization/samplePDOt_inclPrices.json",
-		"/Users/gielitho/Desktop/adidas Officiële Website - Bestel adidas online   adidas.nl.html"
+		"/Users/gielitho/Development/adidas-online/sass/fonts.scss"
 	],
 	"find":
 	{
@@ -322,6 +290,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h5",
+			"clear",
+			"fotn-size-small",
+			"container-deskto",
+			"container-desktop",
+			"container-fluid",
+			"h5",
+			"button",
 			".innercard ",
 			"font_color_2",
 			"#40403a",
@@ -375,6 +351,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"h4",
 			"",
 			"dinbold",
 			"dinmedium",
@@ -396,122 +373,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/sass/foundation-reebok.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								473,
-								473
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/sass/components/shared/_hockeycard.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8173,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7038,
-								7038
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1625.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/sass/components/adidas/_variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13539,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13539,
-								13539
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4500.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/sass/components/reebok/_variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21109,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21075,
-								21090
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4591.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

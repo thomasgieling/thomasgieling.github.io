@@ -1,0 +1,35 @@
+{
+  "name": "thomasgieling.github.io",
+  "version": "0.1.0",
+  "description": "Homepage on github",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasgieling/thomasgieling.github.io.git"
+  },
+  "keywords": [
+    "homepage",
+    "build",
+    "tool"
+  ],
+  "author": "Thomas Gieling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasgieling/thomasgieling.github.io/issues"
+  },
+  "homepage": "https://github.com/thomasgieling/thomasgieling.github.io",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.5.4",
+    "grunt-sass": "^1.0.0",
+    "grunt-spritesmith": "^4.7.1",
+    "grunt-webp": "0.0.4",
+    "imagemin-mozjpeg": "^5.1.0",
+    "phantomjs": "^1.9.17",
+    "webp-bin": "^0.1.4"
+  }
+}
