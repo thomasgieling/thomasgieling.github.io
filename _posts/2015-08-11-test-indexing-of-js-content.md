@@ -13,9 +13,9 @@ author: "Thomas Gieling"
 </p>
 <p>
 	Therefore I have set up a simple test. At the bottom of this post, you can see 2 links to sample pages. One link is available in the html itself, and the other is added through a simple javascript command:
-	<pre>
+	<code>
 		&lt;script&gt;document.write(&#39;&lt;a href=&quot;http://thomasgieling.github.io/secondtestpage.html&quot;&gt;Link to the second page&lt;/a&gt;&lt;br/&gt;&#39;);&lt;/script&gt;
-	</pre>
+	</code>
 	I checked to make sure that both links are visible to googlebot through the 'Fetch as Google' option in Google's Search Console.
 	Here are the links:
 	<a href="http://thomasgieling.github.io/firsttestpage.html">Link to the first page</a><br/>
