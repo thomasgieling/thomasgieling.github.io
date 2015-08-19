@@ -82,23 +82,3 @@
 @media (min-width: $screen-lg-min) {
   @include make-grid(lg);
 }
-
-.main {
-  min-height: 56.28vw;
-  top:48px;
-  position: relative;
-}
-@media screen and (min-width: 1366px) {
-  .main {
-    min-height: 930px;
-  }
-}
-
-.col-5 {
-  float:left;
-  width:20%;
-  position: relative;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
