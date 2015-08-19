@@ -6,14 +6,44 @@
 			<link rel="stylesheet" type="text/css" href="/app/css/style.min.css">
 		</head>
 		<body>
+			<header class="{{ page.image }}">
+				<div class="logo">
+					<div class="first">T</div>
+					<div class="divider"></div>
+					<div class="second">G</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+			        	<li><a href="/about">About</a></li>
+		        		<li><a href="/blog">Blog</a></li>
+					</ul>
+				</nav>
+				<div class="title">
+					<h1>{{ page.title }}</h1>
+					<p>{{ page.subtitle }}</p>
+				</div>
+			</header>
 			<div class="container">
-				<header class="{{ page.image }}">
-
-					<div class="logo">
-						<div class="first">T</div>
-						<div class="divider"></div>
-						<div class="second">G</div>
+				<div class="content">
+				
+				{{ content }}
+				
+				</div><!-- /.container -->
+			</div>
+			<footer>
+				<div class="footer-top">
+					<div class="logo-container">
+						<div class="firstname">Thomas</div>
+						<div class="logo">
+							<div class="first">T</div>
+							<div class="divider"></div>
+							<div class="second">G</div>
+						</div>
+						<div class="lastname">Gieling</div>
 					</div>
+				</div>
+				<div class="footer-main">
 					<nav>
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -21,38 +51,7 @@
 			        		<li><a href="/blog">Blog</a></li>
 						</ul>
 					</nav>
-					<div class="title">
-						<h1>{{ page.title }}</h1>
-						<p>{{ page.subtitle }}</p>
-					</div>
-				</header>
-				<div class="content">
-				
-				{{ content }}
-				
-				</div><!-- /.container -->
-				<footer>
-					<div class="footer-top">
-						<div class="logo-container">
-							<div class="firstname">Thomas</div>
-							<div class="logo">
-								<div class="first">T</div>
-								<div class="divider"></div>
-								<div class="second">G</div>
-							</div>
-							<div class="lastname">Gieling</div>
-						</div>
-					</div>
-					<div class="footer-main">
-						<nav>
-							<ul>
-								<li><a href="/">Home</a></li>
-					        	<li><a href="/about">About</a></li>
-				        		<li><a href="/blog">Blog</a></li>
-							</ul>
-						</nav>
-					</div>
-				</footer>
-			</div>
+				</div>
+			</footer>
 		</body>
 	</html>
