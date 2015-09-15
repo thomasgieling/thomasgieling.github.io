@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Thomas Gieling's Blog</title>
+			<!-- link to main stylesheet -->
+			<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" type="text/css" href="/app/css/style.min.css">
+		</head>
+		<body>
+			<header class="">
+				<div class="logo">
+					<div class="first">T</div>
+					<div class="divider"></div>
+					<div class="second">G</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+			        	<li><a href="/about">About</a></li>
+		        		<li><a href="/blog">Blog</a></li>
+					</ul>
+				</nav>
+				<div class="title">
+					<h1>Thomas Gieling's Blog</h1>
+					<p></p>
+				</div>
+			</header>
+			<div class="container">
+				<div class="content">
+				
+					<h1>Thomas Gieling's Blog</h1>
+	<div class="posts">
+	  
+	  	<div class="headline">
+			<p class="meta">Thomas Gieling - 11 Aug 2015</p>
+			<h2><a href="/blog/2015/08/11/test-indexing-of-js-content" title="Test if links added to the page using javascript is indexed">Test if links added to the page using javascript is indexed</a></h2>
+		</div>
+		<div class="main">
+			<p>
+	As part of our investigation to improve the performance of our homepage, we are trying to see what parts of the page we can load after the onload event.
+	The main idea is to load everything above the fold as part of the page itself, but to load the rest through ajax. When doing this, we ofcourse want to make sure that we do not lose any SEO value.<br />	We know that these days <a href="http://googlewebmastercentral.blogspot.ca/2014/05/understanding-web-pages-better.html" target="_blank">crawlers execute javascript</a> on to render the pages and index them, but weather or not the links that are added to the page through ajax are also followed remains unclear.
+</p>
+
+
+		</div>
+	  
+	  	<div class="headline">
+			<p class="meta"> - 06 Jul 2015</p>
+			<h2><a href="/blog/2015/07/06/site-launched" title="Thomas Gieling Launches Site">Thomas Gieling Launches Site</a></h2>
+		</div>
+		<div class="main">
+			<p>Well. Finally got around to putting this old website together. Neat thing about it - powered by <a href="http://jekyllrb.com">Jekyll</a> and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be thanks to this wonderful tutorial at: http://jmcglone.com/guides/github-pages/</p>
+
+
+		</div>
+	  
+	</div>
+
+				
+				</div><!-- /.container -->
+			</div>
+			<footer>
+				<div class="footer-top">
+					<div class="logo-container">
+						<div class="firstname">Thomas</div>
+						<div class="logo">
+							<div class="first">T</div>
+							<div class="divider"></div>
+							<div class="second">G</div>
+						</div>
+						<div class="lastname">Gieling</div>
+					</div>
+				</div>
+				<div class="footer-main">
+					<nav>
+						<ul>
+							<li><a href="/">Home</a></li>
+				        	<li><a href="/about">About</a></li>
+			        		<li><a href="/blog">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	        <script src="/app/js/bootstrap.min.js"></script>
+	        <script src="/app/js/lazysizes.min.js"></script>
+	        <script src="/app/js/test.js"></script>
+		</body>
+	</html>

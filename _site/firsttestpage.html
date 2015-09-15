@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
+			<title>Page number one</title>
 			<!-- link to main stylesheet -->
 			<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 			<link rel="stylesheet" type="text/css" href="/app/css/style.min.css">
 		</head>
 		<body>
-			<header class="{{ page.image }}">
+			<header class="bg-image-3">
 				<div class="logo">
 					<div class="first">T</div>
 					<div class="divider"></div>
@@ -21,14 +21,23 @@
 					</ul>
 				</nav>
 				<div class="title">
-					<h1>{{ page.title }}</h1>
-					<p>{{ page.subtitle }}</p>
+					<h1>Page number one</h1>
+					<p>javascript indexing test</p>
 				</div>
 			</header>
 			<div class="container">
 				<div class="content">
 				
-				{{ content }}
+				<div class="blurb">
+	<h1>Page number one</h1>
+	<p>
+		This is the first page of the test. This page should be indexed normally, and will function as a control to make sure that the site is crawled.
+		Some content is added after this to ensure that the page has sufficient data and is unique enough to be not indicated as duplicate
+	</p>
+	<p>
+		"De bliksem is niet in de baan ingeslagen, maar in de besturingsapparatuur", legt ze uit. "Het gaat vaak om een klein defect. Maar het zoeken naar het probleem, is zoeken naar een speld in een hooiberg."
+	</p>
+</div><!-- /.blurb -->
 				
 				</div><!-- /.container -->
 			</div>

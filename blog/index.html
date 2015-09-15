@@ -3,9 +3,14 @@ layout: default
 title: Thomas Gieling's Blog
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
-
+	<div class="posts">
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  	<div class="headline">
+			<p class="meta">{{ post.author }} - {{ post.date | date_to_string }}</p>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+		</div>
+		<div class="main">
+			{{ post.excerpt }}
+		</div>
 	  {% endfor %}
-	</ul>
+	</div>

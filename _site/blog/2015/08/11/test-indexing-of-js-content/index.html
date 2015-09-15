@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Test if links added to the page using javascript is indexed</title>
+			<!-- link to main stylesheet -->
+			<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" type="text/css" href="/app/css/style.min.css">
+		</head>
+		<body>
+			<header class="bg-image-4">
+				<div class="logo">
+					<div class="first">T</div>
+					<div class="divider"></div>
+					<div class="second">G</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+			        	<li><a href="/about">About</a></li>
+		        		<li><a href="/blog">Blog</a></li>
+					</ul>
+				</nav>
+				<div class="title">
+					<h1>Test if links added to the page using javascript is indexed</h1>
+					<p>2015-08-11</p>
+				</div>
+			</header>
+			<div class="container">
+				<div class="content">
+				
+				<div class="post">
+	<div class="headline">
+		<p class="meta">Thomas Gieling - 11 Aug 2015</p>
+		<h1>Test if links added to the page using javascript is indexed</h1>
+	</div>
+	<div class="main">
+		<p>
+	As part of our investigation to improve the performance of our homepage, we are trying to see what parts of the page we can load after the onload event.
+	The main idea is to load everything above the fold as part of the page itself, but to load the rest through ajax. When doing this, we ofcourse want to make sure that we do not lose any SEO value.<br />	We know that these days <a href="http://googlewebmastercentral.blogspot.ca/2014/05/understanding-web-pages-better.html" target="_blank">crawlers execute javascript</a> on to render the pages and index them, but weather or not the links that are added to the page through ajax are also followed remains unclear.
+</p>
+<!--more-->
+<p>
+	Therefore I have set up a simple test. At the bottom of this post, you can see 2 links to sample pages. One link is available in the html itself, and the other is added through a simple javascript command:
+	<code>
+		&lt;script&gt;document.write(&#39;&lt;a href=&quot;http://thomasgieling.github.io/secondtestpage.html&quot;&gt;Link to the second page&lt;/a&gt;&lt;br/&gt;&#39;);&lt;/script&gt;
+	</code>
+	I checked to make sure that both links are visible to googlebot through the 'Fetch as Google' option in Google's Search Console.
+	Here are the links:
+	<ul id="testlinks">
+		<li>
+			<a href="http://thomasgieling.github.io/firsttestpage.html">Link to the first page</a>
+		</li>
+		<li>
+			<script>
+				document.write('<a href="http://thomasgieling.github.io/secondtestpage.html">Link to the second page</a><br/>');
+			</script>
+		</li>
+	</ul>
+</p>
+
+	</div>
+</div>
+
+				
+				</div><!-- /.container -->
+			</div>
+			<footer>
+				<div class="footer-top">
+					<div class="logo-container">
+						<div class="firstname">Thomas</div>
+						<div class="logo">
+							<div class="first">T</div>
+							<div class="divider"></div>
+							<div class="second">G</div>
+						</div>
+						<div class="lastname">Gieling</div>
+					</div>
+				</div>
+				<div class="footer-main">
+					<nav>
+						<ul>
+							<li><a href="/">Home</a></li>
+				        	<li><a href="/about">About</a></li>
+			        		<li><a href="/blog">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	        <script src="/app/js/bootstrap.min.js"></script>
+	        <script src="/app/js/lazysizes.min.js"></script>
+	        <script src="/app/js/test.js"></script>
+		</body>
+	</html>

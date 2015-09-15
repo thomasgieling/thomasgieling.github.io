@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Thomas Gieling's Blog</title>
+	<link href="http://thomasgieling.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://thomasgieling.github.io/blog"/>
+	<updated>2015-09-15T12:24:21+02:00</updated>
+	<id>http://thomasgieling.github.io/blog</id>
+	<author>
+		<name>Thomas Gieling</name>
+	</author>
+
+	
+		<entry>
+			<title>Test if links added to the page using javascript is indexed</title>
+			<link href="http://thomasgieling.github.io/blog/2015/08/11/test-indexing-of-js-content"/>
+			<updated>2015-08-11T00:00:00+02:00</updated>
+			<id>http://thomasgieling.github.io//blog/2015/08/11/test-indexing-of-js-content</id>
+			<content type="html">&lt;p&gt;
+	As part of our investigation to improve the performance of our homepage, we are trying to see what parts of the page we can load after the onload event.
+	The main idea is to load everything above the fold as part of the page itself, but to load the rest through ajax. When doing this, we ofcourse want to make sure that we do not lose any SEO value.&lt;br /&gt;	We know that these days &lt;a href=&quot;http://googlewebmastercentral.blogspot.ca/2014/05/understanding-web-pages-better.html&quot; target=&quot;_blank&quot;&gt;crawlers execute javascript&lt;/a&gt; on to render the pages and index them, but weather or not the links that are added to the page through ajax are also followed remains unclear.
+&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;
+	Therefore I have set up a simple test. At the bottom of this post, you can see 2 links to sample pages. One link is available in the html itself, and the other is added through a simple javascript command:
+	&lt;code&gt;
+		&amp;lt;script&amp;gt;document.write(&amp;#39;&amp;lt;a href=&amp;quot;http://thomasgieling.github.io/secondtestpage.html&amp;quot;&amp;gt;Link to the second page&amp;lt;/a&amp;gt;&amp;lt;br/&amp;gt;&amp;#39;);&amp;lt;/script&amp;gt;
+	&lt;/code&gt;
+	I checked to make sure that both links are visible to googlebot through the &#39;Fetch as Google&#39; option in Google&#39;s Search Console.
+	Here are the links:
+	&lt;ul id=&quot;testlinks&quot;&gt;
+		&lt;li&gt;
+			&lt;a href=&quot;http://thomasgieling.github.io/firsttestpage.html&quot;&gt;Link to the first page&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;script&gt;
+				document.write(&#39;&lt;a href=&quot;http://thomasgieling.github.io/secondtestpage.html&quot;&gt;Link to the second page&lt;/a&gt;&lt;br/&gt;&#39;);
+			&lt;/script&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Thomas Gieling Launches Site</title>
+			<link href="http://thomasgieling.github.io/blog/2015/07/06/site-launched"/>
+			<updated>2015-07-06T00:00:00+02:00</updated>
+			<id>http://thomasgieling.github.io//blog/2015/07/06/site-launched</id>
+			<content type="html">&lt;p&gt;Well. Finally got around to putting this old website together. Neat thing about it - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be thanks to this wonderful tutorial at: http://jmcglone.com/guides/github-pages/&lt;/p&gt;
+</content>
+		</entry>
+	
+
+</feed>
