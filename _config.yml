@@ -1,5 +1,5 @@
 name: Thomas Gieling
 markdown: kramdown
-exclude: grunt-build, node_modules
+exclude: node_modules
 permalink: /blog/:year/:month/:day/:title
 excerpt_separator: <!--more-->
