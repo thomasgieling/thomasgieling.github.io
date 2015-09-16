@@ -1,0 +1,102 @@
+//--------Fonts
+$headline: 'adiNeueRegular', Arial, Helvetica, Verdana, sans-serif;
+$headlinebold: 'adiNeueBold', Arial, Helvetica, Verdana, sans-serif;
+$default: 'adiHausRegular', Arial, Helvetica, Verdana, sans-serif;
+$defaultbold: 'adiHausBold', Arial, Helvetica, Verdana, sans-serif;
+$icomoon: 'icomoonregular';
+
+//--------Colors
+//----------------Link Colors
+$color_link: #0286cd;
+$color_link_visited: #025F8E;
+$color_link_active: #025F8E;
+$color_link_hover: #025F8E;
+
+//----------------Font Colors
+$font_color_1:#000;
+$font_color_2:#363738;
+$font_color_3:#616363;
+$font_color_4:#9a9b9b;
+$font_color_5:#c8cbcc;
+$font_color_6:#ebebeb;
+$font_color_success:#73a962;
+$font_color_warning:#da9511;
+$font_color_info:#b8d3e8;
+$font_color_error:#ae4747;
+$font_color_price:#586268;
+$font_color_from_price:#586268;
+$font_color_for_price:#c53622;
+
+//----------------Background Colors
+$bg_color_1:#000;
+$bg_color_2:#363738;
+$bg_color_3:#616363;
+$bg_color_4:#9a9b9b;
+$bg_color_5:#c8cbcc;
+$bg_color_6:#ebebeb;
+$bg_color_success:#00b678;
+$bg_color_warning:#fdf9c3;
+$bg_color_info:#b8d3e8;
+$bg_color_error:#ff6d6d;
+
+//----------------Button Colors
+$button_text_color_main:#FFF;
+$button__text_color_alt_1:#000;
+
+$button_bg_color_main:#0286CD;
+$button_bg_color_main_from:#025f8e;
+$button_bg_color_main_to:#0286CD;
+$button_bg_color_disabled:#c8cbcc;
+
+//----------------Input Colors
+$input_border_color:#c8cbcc;
+$input_bg_color:#FFF;
+$input_border_color_focus:#000;
+$input_border_color_error:#ff6d6d;
+$input_text_color:#000;
+$input_text_color_disabled:#c8cbcc;
+$input_text_color_error:#d15a5a;
+$input_text_color_placeholder:#c8cbcc;
+
+$select_dropdown_background: #FFF;
+$select_dropdown_selected: #025f8e;
+
+
+
+
+//-- Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+//
+// Note: These variables are not generated into the Customizer.
+
+$zindex-navbar:            1000 !default;
+$zindex-dropdown:          1000 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
+$zindex-navbar-fixed:      1030 !default;
+$zindex-modal-background:  1040 !default;
+$zindex-modal:             1050 !default;
+
+//== Tooltips
+//
+//##
+
+//** Tooltip max width
+$tooltip-max-width:           200px !default;
+//** Tooltip text color
+$tooltip-color:               #000 !default;
+//** Tooltip background color
+$tooltip-bg:                  #FFF !default;
+$tooltip-opacity:             .9 !default;
+
+//** Tooltip border color
+$tooltip-border:               solid 1px $input_border_color !default;
+
+//** Tooltip arrow width
+$tooltip-arrow-width:         5px !default;
+$tooltip-arrow-after-width:   4px !default;
+//** Tooltip arrow color
+$tooltip-arrow-color:         $input_border_color !default;
+$tooltip-arrow-after-color:   $tooltip-bg !default;

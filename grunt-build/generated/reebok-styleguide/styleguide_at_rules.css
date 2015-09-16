@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Q Stencil';
+  src: url("fonts/Q-Stencil.eot?$staticlink$");
+  /* IE9 Compat Modes */
+  src: url("fonts/Q-Stencil.eot?$staticlink$&#iefix") format("embedded-opentype"), url("fonts/Q-Stencil.woff?$staticlink$") format("woff"), url("fonts/Q-Stencil.ttf?$staticlink$") format("truetype"), url("fonts/Q-Stencil.svg#8dfb79a238f0618c16db9ec103dfe2a3?$staticlink$") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DINWebPro-CondBold';
+  src: url("fonts/DINWebPro-CondBold.woff?$staticlink$") format("woff"), url("fonts/DINCompPro-CondBold.ttf?$staticlink$") format("truetype");
+}
+
+@font-face {
+  font-family: 'DINWebPro-CondMedium';
+  src: url("fonts/DINWebPro-CondMedium.woff?$staticlink$") format("woff"), url("fonts/DINWebPro-CondMedium.ttf?$staticlink$") format("truetype");
+}
+
+@font-face {
+  font-family: 'DINWebPro-Cond';
+  src: url("fonts/DINWebPro-Cond.woff?$staticlink$") format("woff"), url("fonts/DINWebPro-Cond.ttf?$staticlink$") format("truetype");
+}
+
+@font-face {
+  font-family: 'icomoonregular';
+  src: url("fonts/icomoon-webfont.eot");
+  src: url("fonts/icomoon-webfont.eot?") format("eot"), url("fonts/icomoon-webfont.woff") format("woff"), url("fonts/icomoon-webfont.ttf") format("truetype");
+}

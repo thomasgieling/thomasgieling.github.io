@@ -1,0 +1,264 @@
+///------------------------------------------------
+///------------------------------------------------
+///                GRADIENTS
+///------------------------------------------------
+///------------------------------------------------
+
+/// Mixin printing a linear-gradient
+/// as well as a plain color fallback
+/// @access public
+/// @param {Keyword | Angle} $direction - Linear gradient direction
+/// @param {Arglist} $color-stops - List of color-stops composing the gradient
+@mixin linear-gradient($direction, $color-stops...) {
+  // Direction has been omitted and happens to be a color-stop
+  @if is-direction($direction) == false {
+    $color-stops: $direction, $color-stops;
+    $direction: 90deg;
+  }
+ 
+  background: nth(nth($color-stops, 1), 1);
+  background: 90deg;
+}
+
+/// Mixin printing a linear-gradient
+/// as well as a plain color fallback
+/// @access public
+/// @param {Keyword | Angle} $direction - Linear gradient direction
+/// @param {color} $direction - The main color of the gradient
+@mixin single-color-gradient($color, $direction:90deg) {
+  @if not (variable-exists('direction') == false) or is-direction($direction) == false {
+    $direction: 90deg;
+  }
+  background: $color;
+  background: linear-gradient(90deg, darken($color, 20%), lighten($color, 20%));
+}
+
+
+///------------------------------------------------
+///------------------------------------------------
+///                BUTTONS
+///------------------------------------------------
+///------------------------------------------------
+// Standard buttons
+//
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
+
+@mixin standard-button($color, $background) {
+  border:none;
+  color: $color;
+  background-color: $background;
+  padding: $button-padding;
+  font-size: $button-font-size;
+  display:inline-block;
+  text-transform: $button-text-transform;
+
+
+  &:focus,
+  &.focus {
+    color: $color;
+    background-color: darken($background, 10%);
+  }
+  &:hover {
+    color: $color;
+    background-color: darken($background, 10%);
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: $color;
+    background-color: darken($background, 10%);
+
+    &:hover,
+    &:focus,
+    &.focus {
+      color: $color;
+      background-color: darken($background, 17%);
+    }
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: $button_bg_color_disabled;
+    }
+  }
+}
+
+// Standard icon buttons
+//
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
+
+@mixin standard-icon-button($color, $background, $icon) {
+  @include standard-button($color, $background);
+
+  &:after {
+    content: $icon;
+    top: $button-icon-top;
+    margin-left: $button-icon-margin-left;
+    font-size: $button-icon-font-size;
+    font-family:$icomoon;
+    position: relative;
+  }
+}
+
+// Standard add-to-cart buttons
+//
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
+
+@mixin add-to-cart-button($color, $icon, $background-color-from, $background-color-to) {
+  @include linear-gradient($background-color-from, $background-color-to);
+  border: none;
+  color: $color;
+  padding: $button-padding;
+  font-size: $button-font-size;
+  display:inline-block;
+  text-transform: $button-text-transform;
+
+
+  &:focus,
+  &.focus {
+    color: $color;
+    background: $background-color-from;
+  }
+  &:hover {
+    color: $color;
+    background: $background-color-to;
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: $color;
+    background: $background-color-from;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      color: $color;
+      background: $background-color-from;
+    }
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background: $button_bg_color_disabled;
+          border: $button_bg_color_disabled;
+    }
+  }
+
+  &:after {
+    content: $icon;
+    top: 0.0625em;
+    margin-left: 0.875em;
+    width: 1em;
+    height: 1em;
+    font-size: 1em;
+    font-family:$icomoon;
+    position: relative;
+  }
+}
+
+@mixin text-input($width) {
+  padding: $input_padding;
+  border: $input_border;
+  font-size: $input_font_size;
+  line-height: $input_line_height;
+  font-family: $default-font;
+  width: $width;
+
+  &:focus, &.focus {
+    border-bottom: $input_focus_border;
+  }
+  
+  & + span.error-text {
+    display:none;
+  }
+
+  &:disabled, &.disabled {
+    color: $input_disabled_text_color;
+  }
+  &.invalid, &:invalid {
+    border-bottom: $input_error_border;
+  }
+  &.valid{
+    border-bottom: $input_valid_border;
+  }
+  &:invalid + span.error-text, &.invalid + span.error-text {
+    display:block;
+    font-family: $default-font;
+    color:$input_error_text_color;
+    font-size:$input_error_text_size;
+    padding: $input_error_text_padding;
+    line-height:$input_error_line-height;
+  }
+  &:invalid + span.error-text:after, &.invalid + span.error-text:after {
+    content:"\e61c";
+    font-family: $icomoon;
+    position: absolute;
+    font-size: $input_validation_after_size;
+    right:$input_validation_after_right;
+    top:$input_validation_after_top;
+  }
+  &.valid + span.error-text {
+    display:block;
+    font-family: $default-font;
+    color:$input_valid_icon_color;
+    font-size:$input_error_text_size;
+    padding: $input_error_text_padding;
+    line-height:$input_error_line-height;
+    margin-left:-500em;
+  }
+  &.valid + span.error-text:after {
+    content:"\e612";
+    font-family: $icomoon;
+    position: absolute;
+    font-size: $input_validation_after_size;
+    right:$input_validation_after_right;
+    top:$input_validation_after_top;
+  }
+
+}
+
+
+//Reset text to basic
+@mixin reset-text() {
+  font-family: $default-font;
+  // We deliberately do NOT reset font-size.
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1em;
+  text-align: left; // Fallback for where `start` is not supported
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  white-space: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+}

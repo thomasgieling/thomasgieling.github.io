@@ -1,0 +1,238 @@
+//--------Fonts
+$adiNeueRegular: 				'adiNeueRegular', Arial, Helvetica, Verdana, sans-serif;
+$adiNeueBold: 					'adiNeueBold', Arial, Helvetica, Verdana, sans-serif;
+$adiHausRegular: 				'adiHausRegular', Arial, Helvetica, Verdana, sans-serif;
+$adiHausBold: 					'adiHausBold', Arial, Helvetica, Verdana, sans-serif;
+$icomoon: 						'icomoonregular';
+
+
+//--------Colors
+
+//----------------Font Colors
+$font_color_1:					#000;
+$font_color_2:					#363738;
+$font_color_3:					#616363;
+$font_color_4:					#9a9b9b;
+$font_color_5:					#c8cbcc;
+$font_color_6:					#ebebeb;
+$font_color_success:			#73a962;
+$font_color_warning:			#da9511;
+$font_color_info:				#b8d3e8;
+$font_color_error:				#ae4747;
+$font_color_price:				#586268;
+$font_color_from_price:			#586268;
+$font_color_for_price:			#c53622;
+
+//-- Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+//
+// Note: These variables are not generated into the Customizer.
+
+$zindex-dropdown:          		1000 !default;
+$zindex-popover:           		1060 !default;
+$zindex-tooltip:           		1070 !default;
+$zindex-modal-background:  		1040 !default;
+$zindex-modal:             		1050 !default;
+$zindex-select:					1001 !default;
+
+
+//== Headings
+//
+//##
+$title-super-font: 				$adiNeueBold;
+$title-super-font-color:		$font_color_1;
+$title-super-font-size:			4em;
+$title-super-line-height:		1.5em;
+
+$h1-font:						$adiNeueBold;
+$h1-font-color:					$font_color_1;
+$h1-font-size:					3em;
+$h1-line-height:				1.5em;
+
+$h2-font:						$adiNeueBold;
+$h2-font-color:					$font_color_1;
+$h2-font-size:					2em;
+$h2-line-height:				1.5em;
+
+$h3-font:						$adiNeueBold;
+$h3-font-color:					$font_color_1;
+$h3-font-size:					1.75em;
+$h3-line-height:				1.5em;
+
+$h4-font:						$adiNeueBold;
+$h4-font-color:					$font_color_1;
+$h4-font-size:					1.375em;
+$h4-line-height:				1.5em;
+
+$h5-font:						$adiNeueBold;
+$h5-font-color:					$font_color_1;
+$h5-font-size:					1em;
+$h5-line-height:				1.5em;
+
+$h6-font:						$adiHausRegular;
+$h6-font-color:					$font_color_1;
+$h6-font-size:					0.875em;
+$h6-line-height:				1.5em;
+
+
+//== Text
+//
+//##
+$default-font: 					$adiHausRegular;
+$default-line-height:			1.75em;
+$default-font-color:			$font_color_1;
+
+$paraintro-font-size:			1.125em;
+$paraintro-line-height:			$default-line-height;
+$paraintro-font-color:			$default-font-color;
+$paraintro-font:				$default-font;
+$paraintro-margin:				0 0 1em;
+
+$paranormal-font-size:			0.875em;
+$paranormal-line-height:		$default-line-height;
+$paranormal-font-color:			$default-font-color;
+$paranormal-font:				$default-font;
+$paranormal-margin:				0 0 1em;
+
+$parasmall-font-size:			0.8125em;
+$parasmall-line-height:			$default-line-height;
+$parasmall-font-color:			$default-font-color;
+$parasmall-font:				$default-font;
+$parasmall-margin:				0 0 1em;
+
+//== Links
+//
+//##
+
+$color_link: 					#0286CD;
+$color_link_visited: 			#025F8E;
+$color_link_active: 			#025F8E;
+$color_link_hover: 				#025F8E;
+
+$link-text-decoration:			none;
+$link-avtive-text-decoration:	none;
+$link-hover-text-decoration:	none;
+$link-visited-text-decoration:	none;
+
+//== Buttons
+//
+//##
+
+$button-padding:				0.74em 1.875em;
+$button-border-size:			2px;
+$button-font-size:				0.9375em;
+$button-text-transform:			uppercase;
+
+$button-icon:					'\e600';
+$button-cart-icon:				'\e632';
+$button-icon-top: 				0.0625em;
+$button-icon-margin-left: 		0.875em;
+$button-icon-font-size: 		1em;
+
+
+//----------------Button Colors
+$button_text_color_main:		#FFF;
+$button__text_color_alt_1:		#000;
+
+$button_bg_color_main:			#0286CD;
+$button_bg_color_main_from:		#025f8e;
+$button_bg_color_main_to:		#0286CD;
+$button_bg_color_disabled:		#c8cbcc;
+
+//== Text Input
+//
+//##
+
+$input_border_color:			#c8cbcc;
+$input_border:					solid 1px $input_border_color;
+$input_bg_color:				#FFF;
+$input_padding: 				0.923em 0.769em 0.615em;
+
+$input_line_height:				1.3846em;
+$input_font_family:				$default-font;
+$input_font_color:				#000;
+$input_font_size:				0.8125em;
+
+$input_focus_border: 			solid 0.2308em #000;
+$input_error_border: 			solid 0.2308em $font_color_error;
+
+
+$input_disabled_text_color:		#c8cbcc;
+
+$input_error_text_color:		$font_color_error;
+$input_error_text_size:			0.75em;
+$input_error_text_padding:		0.25em 0;
+$input_error_line-height:		1.5em;
+
+$input_validation_after_size:	1.333em;
+$input_validation_after_top:	0.75em;
+$input_validation_after_right:	0.375em;
+
+$input_valid_icon_color:		$font_color_success;
+$input_valid_border:			solid 0.2308em $font_color_success;
+
+$input_placeholder_color:		#c8cbcc;
+
+//== Select Input
+//
+//##
+$select_dropdown_background: 	#FFF;
+$select_dropdown_selected: 		#025f8e;
+
+$select-font-size: 				0.8125em;
+$select-height: 				37px;
+$select-padding: 				12px 30px 8px 10px;
+$select-border:					$input_border;
+$select-border-radius:			0px;
+$select-line-height:			$input_line_height;
+$select-background-color:		$input_bg_color;
+$select-color:					$font_color_1;
+$select-caret-color:			$font_color_1;
+$select-caret-top: 				12px;
+$select-caret-right: 			12px;
+$select-cart-icon:				"\e630";
+
+$select-option-border:			$input_border;
+$select-option-padding:			10px 10px 10px 15px;
+$select-option-color:			$select-color;
+$select-option-hover-padding:	10px 10px 9px 15px;
+$select-option-hover-border:	solid 2px $select_dropdown_selected;
+
+
+$select-option-header-font:		$adiHausBold;
+$select-option-header-style:	italic;
+$select-option-header-size:		1em;
+
+$select-size-inner-padding:		25px 5px 25px 5px;
+$select-size-option-margin:		0 5px 5px;
+$select-size-option-min-width:	36px;
+$select-size-option-padding:	10px 5px 6px;
+$select-size-option-hvr-padding:10px 5px 5px;
+$select-size-option-hdr-margin:	15px 0;
+	
+
+
+
+//== Tooltips
+//
+//##
+
+//** Tooltip max width
+$tooltip-max-width:           	200px !default;
+//** Tooltip text color
+$tooltip-color:               	#000 !default;
+//** Tooltip background color
+$tooltip-bg:                  	#FFF !default;
+$tooltip-opacity:             	.9 !default;
+
+//** Tooltip border color
+$tooltip-border:               	$input_border !default;
+
+//** Tooltip arrow width - use px and not em to make sure styling is ok.
+$tooltip-arrow-width:         	0.313em !default;
+$tooltip-arrow-after-width:   	0.250em !default;
+//** Tooltip arrow color
+$tooltip-arrow-color:         	$input_border_color !default;
+$tooltip-arrow-after-color:   	$tooltip-bg !default;

@@ -1,0 +1,412 @@
+//--------Fonts
+$adiNeueRegular: 				'adiNeueRegular', Arial, Helvetica, Verdana, sans-serif;
+$adiNeueBold: 					'adiNeueBold', Arial, Helvetica, Verdana, sans-serif;
+$adiHausRegular: 				'adiHausRegular', Arial, Helvetica, Verdana, sans-serif;
+$adiHausBold: 					'adiHausBold', Arial, Helvetica, Verdana, sans-serif;
+$icomoon: 						'icomoonregular';
+
+
+//--------Colors
+
+//----------------Font Colors
+$font_color_1:					#000;
+$font_color_2:					#586268;
+$font_color_3:					#616363;
+$font_color_4:					#9a9b9b;
+$font_color_5:					#c8cbcc;
+$font_color_6:					#ebebeb;
+$font_color_success:			#73a962;
+$font_color_warning:			#da9511;
+$font_color_info:				#b8d3e8;
+$font_color_error:				#ae4747;
+//-- Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+//
+// Note: These variables are not generated into the Customizer.
+
+$zindex-dropdown:          		1000 !default;
+$zindex-popover:           		1060 !default;
+$zindex-tooltip:           		1070 !default;
+$zindex-modal-background:  		1040 !default;
+$zindex-modal:             		1050 !default;
+$zindex-select:					1001 !default;
+$zindex-header:					9999 !default;
+
+
+//** Width of the `border` for generating carets that indicator dropdowns.
+$caret-width-base:				4px !default;
+//** Carets increase slightly in size for larger components.
+$caret-width-large:				5px !default;
+
+$font-size-base:				0.875em;
+$font-size-small:				0.813em;
+$line-height-base:				1.5em;
+
+
+//== Headings
+//
+//##
+$title-super-font: 				$adiNeueBold;
+$title-super-font-color:		$font_color_1;
+$title-super-font-size:			4em;
+$title-super-line-height:		1.5em;
+
+$h1-font:						$adiNeueBold;
+$h1-font-color:					$font_color_1;
+$h1-font-size:					3em;
+$h1-line-height:				1.5em;
+
+$h2-font:						$adiNeueBold;
+$h2-font-color:					$font_color_1;
+$h2-font-size:					2em;
+$h2-line-height:				1.5em;
+
+$h3-font:						$adiNeueBold;
+$h3-font-color:					$font_color_1;
+$h3-font-size:					1.75em;
+$h3-line-height:				1.5em;
+
+$h4-font:						$adiNeueBold;
+$h4-font-color:					$font_color_1;
+$h4-font-size:					1.375em;
+$h4-line-height:				1.5em;
+
+$h5-font:						$adiNeueBold;
+$h5-font-color:					$font_color_1;
+$h5-font-size:					1em;
+$h5-line-height:				1.5em;
+
+$h6-font:						$adiHausRegular;
+$h6-font-color:					$font_color_1;
+$h6-font-size:					0.875em;
+$h6-line-height:				1.5em;
+
+
+//== Text
+//
+//##
+$default-font: 					$adiHausRegular;
+$default-line-height:			1.75em;
+$default-font-color:			$font_color_1;
+
+$paraintro-font-size:			1.125em;
+$paraintro-line-height:			$default-line-height;
+$paraintro-font-color:			$default-font-color;
+$paraintro-font:				$default-font;
+$paraintro-margin:				0 0 1em;
+
+$paranormal-font-size:			0.875em;
+$paranormal-line-height:		$default-line-height;
+$paranormal-font-color:			$default-font-color;
+$paranormal-font:				$default-font;
+$paranormal-margin:				0 0 1em;
+
+$parasmall-font-size:			0.8125em;
+$parasmall-line-height:			$default-line-height;
+$parasmall-font-color:			$default-font-color;
+$parasmall-font:				$default-font;
+$parasmall-margin:				0 0 1em;
+
+//== Links
+//
+//##
+
+$color_link: 					#0286CD;
+$color_link_visited: 			#025F8E;
+$color_link_active: 			#025F8E;
+$color_link_hover: 				#025F8E;
+
+$link-text-decoration:			none;
+$link-avtive-text-decoration:	none;
+$link-hover-text-decoration:	none;
+$link-visited-text-decoration:	none;
+
+//== Buttons
+//
+//##
+
+$button-padding:				0.800em 2em 0.533em;
+$button-border-size:			2px;
+$button-font-size:				0.9375em;
+$button-text-transform:			uppercase;
+
+$button-icon:					'\e600';
+$button-cart-icon:				'\e632';
+$button-icon-top: 				0.0625em;
+$button-icon-margin-left: 		0.875em;
+$button-icon-font-size: 		1em;
+
+
+//----------------Button Colors
+$button_text_color_main:		#FFF;
+$button__text_color_alt_1:		#000;
+
+$button_bg_color_main:			#0286CD;
+$button_bg_color_main_from:		#025f8e;
+$button_bg_color_main_to:		#0286CD;
+$button_bg_color_disabled:		#c8cbcc;
+
+//== Text Input
+//
+//##
+
+$input_border_color:			#c8cbcc;
+$input_border:					solid 1px $input_border_color;
+$input_bg_color:				#FFF;
+$input_padding: 				0.923em 0.769em 0.615em;
+
+$input_line_height:				1.3846em;
+$input_font_family:				$default-font;
+$input_font_color:				#000;
+$input_font_size:				0.8125em;
+
+$input_focus_border: 			solid 0.2308em #000;
+$input_error_border: 			solid 0.2308em $font_color_error;
+
+
+$input_disabled_text_color:		#c8cbcc;
+
+$input_error_text_color:		$font_color_error;
+$input_error_text_size:			0.75em;
+$input_error_text_padding:		0.25em 0;
+$input_error_line-height:		1.5em;
+
+$input_validation_after_size:	1.333em;
+$input_validation_after_top:	0.75em;
+$input_validation_after_right:	0.375em;
+
+$input_valid_icon_color:		$font_color_success;
+$input_valid_border:			solid 0.2308em $font_color_success;
+
+$input_placeholder_color:		#c8cbcc;
+
+//== Select Input
+//
+//##
+$select_dropdown_background: 	#FFF;
+$select_dropdown_selected: 		#025f8e;
+
+$select-font-size: 				0.8125em;
+$select-height: 				37px;
+$select-padding: 				12px 30px 8px 10px;
+$select-border:					$input_border;
+$select-border-radius:			0px;
+$select-line-height:			$input_line_height;
+$select-background-color:		$input_bg_color;
+$select-color:					$font_color_1;
+$select-caret-color:			$font_color_1;
+$select-caret-top: 				12px;
+$select-caret-right: 			12px;
+$select-cart-icon:				"\e630";
+
+$select-option-border:			$input_border;
+$select-option-padding:			10px 10px 10px 15px;
+$select-option-color:			$select-color;
+$select-option-hover-padding:	10px 10px 9px 15px;
+$select-option-hover-border:	solid 2px $select_dropdown_selected;
+
+
+$select-option-header-font:		$adiHausBold;
+$select-option-header-style:	italic;
+$select-option-header-size:		1em;
+
+$select-size-inner-padding:		25px 5px 25px 5px;
+$select-size-option-margin:		0 5px 5px;
+$select-size-option-min-width:	36px;
+$select-size-option-padding:	10px 5px 6px;
+$select-size-option-hvr-padding:10px 5px 5px;
+$select-size-option-hdr-margin:	15px 0;
+	
+
+
+
+//== Tooltips
+//
+//##
+
+//** Tooltip max width
+$tooltip-max-width:           	200px !default;
+//** Tooltip text color
+$tooltip-color:               	#000 !default;
+//** Tooltip background color
+$tooltip-bg:                  	#FFF !default;
+$tooltip-opacity:             	.9 !default;
+
+//** Tooltip border color
+$tooltip-border:               	$input_border !default;
+
+//** Tooltip arrow width - use px and not em to make sure styling is ok.
+$tooltip-arrow-width:         	0.313em !default;
+$tooltip-arrow-after-width:   	0.250em !default;
+//** Tooltip arrow color
+$tooltip-arrow-color:         	$input_border_color !default;
+$tooltip-arrow-after-color:   	$tooltip-bg !default;
+
+//== Prices
+//
+//##
+
+$price-color:					#586268;
+$price-original-color:			#586268;
+$price-discounted-color:		#c53622;
+$price-font-family:				$adiHausBold;
+$currency-symbol-font-size:		1em;
+$price-font-size:				1em;
+$price-original-font-size:		0.875em;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         20px !default;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-sm-min !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+// Small screen / tablet
+$container-tablet:             (720px + $grid-gutter-width) !default;
+//** For `$screen-sm-min` and up.
+$container-sm:                 $container-tablet !default;
+
+// Medium screen / desktop
+$container-desktop:            (940px + $grid-gutter-width) !default;
+//** For `$screen-md-min` and up.
+$container-md:                 $container-desktop !default;
+
+// Large screen / wide desktop
+$container-large-desktop:      (940px + $grid-gutter-width) !default;
+//** For `$screen-lg-min` and up.
+$container-lg:                 $container-large-desktop !default;
+
+
+//== Product Badges
+//
+//## Variables for the product badges
+$badge-height: 					27px;
+$badge-line-height:				2.500em;
+$badge-font-family: 			$default-font;
+$badge-font-size:				0.750em;
+$badge-padding:					0 1em;
+$badge-text-transform:			uppercase;
+$badge-after-border-top:		14px solid transparent;
+$badge-after-border-bottom:		13px solid transparent;
+$badge-after-border-left:		9px solid rgba(168, 220, 178, 0.8);
+$badge-after-right:				-9px;
+
+$badge-preorder-background:		rgba(168, 220, 178, 0.8);
+$badge-preview-background:		rgba(168, 220, 178, 0.8);
+$badge-soldout-background:		rgba(237, 237, 237, 0.8);
+$badge-exclusive-background:	rgba(237, 237, 237, 0.8);
+$badge-promotion-background:	rgba(255, 138, 138, 0.8);
+$badge-sale-background:			rgba(255, 138, 138, 0.8);
+$badge-custom-background:		rgba(237, 237, 237, 0.8);
+$badge-new-background:			rgba(168, 220, 178, 0.8);
+
+
+//== Hockey Cards
+//
+//## Variables for the hockey cards
+$hc-badge-top: 					43px;
+$hc-more-colors-font:			$default-font;
+$hc-more-colors-color:			$font_color_2;
+$hc-more-colors-font-size:		0.813em;
+$hc-separator-border:			1px dotted #c8cbcc;
+$hc-title-font-family:			$default-font;
+$hc-title-font-size:			0.875em;
+$hc-title-color:				$font_color_1;
+$hc-subtitle-font-family:		$default-font;
+$hc-subtitle-font-size:			0.813em;
+$hc-subtitle-color:				$font_color_2;
+$hc-title-line-height: 			1.143em;	
+$hc-subtitle-line-height: 		1.231em;
+$hc-count-background:			url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAABtCAYAAAAS7GkeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozNTIzQTJBRTFDMjA2ODExODIyQUVCNDI2Q0QyNzQyNCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0M0Q2MjdGREJBNzMxMUUzQTMwODgxQ0MyNkVBNUUxMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0M0Q2MjdGQ0JBNzMxMUUzQTMwODgxQ0MyNkVBNUUxMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Q0VFRTZCRjQyNTIwNjgxMTgyMkFCRTQ1RUQzRjUxNUUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MzUyM0EyQUUxQzIwNjgxMTgyMkFFQjQyNkNEMjc0MjQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7mrfJwAAAETUlEQVR42uycz08TQRTHd5cfaRtbBStEDxqJ18JBE/8EDCfixcSTB+OVsxf/Bok3Y0ICB8Ldg3+CP8DE1qPBFAoEqCgklAJp1/eGWdhudpZtmd3ObN9LXiYzs9998+0M2+3ngGG0xgDkHG9bwrZtQxBCTYCu63Xc8Qb1vA27GKEmQNf1OhgpyGnIY37RMe+nAm6Kc0+DND46ZerMQh7ySW8e8nnvTUNpPDql6oxBrgsuwvH7Pot5ALkp0Gzyee9ilKqDURBcVAg4dpdqfHTK1MEYFlw0FLCYvECTD1jMkAp1LH7RLUcLWeSte9wv8gJNPkCjRB3L9cksQE64coGfAFHchJx3XT/O+0GLGVa4TujvQem6OOqYnRbROSyjB4NMk2kyTabJtI5htvPlb5pm2wXa1V2lDu10G6ZDMSVdNF+WVwYg57ANMv0a8gVvw4bSGvhTEWoSwcic/PxtOQU5/XXl+/F6pWJji30cd+6fGEbGDc9CHv4o/bTL5TV7d3eXtdjHcZy3uHBPcDxw/K3P+DvIfYFmn897I646eJ+9XPaakcmk2QC22Od1ZhPFyFy7XYCHF9tlJ7GP4zjvPMg2BJ9mJeAhsdXmeND9ZNdZx+96NFg7OnJ/91eSzMhG0Gi5smFvbe8UseUnKNmMDEwuNBqNicePHk5gi32nTk++hhIjI9NkmkyTaTJNpomRRfKSQTudREYm4l2JZ2RBvKsdjeniUE8glyAHIU8gn0F+gqwL/jZRMwW5KNL46ELV8ewWq2NZ1uKd0dHBze3t02az+RzGPsIvqLpgh1kd0CzdHh0ZhJ+XJ6BhdVBjcnzyEqmKj74G+QFyxrP4UBqP6dB1XItnmnQqlblxPWdk0mkGBf7tHxhH9TrTgIkZj+ELTS7HUFGtBpqDC40WjCyXzTLDjHelkXdlr8TITBeHKvrcAH+wlwTH+1KNjy5UHc/OFUBfHLt393xstbyG143DLpcExztQowUjs6xW3mWdfYjJZmTNZivvap6dhmQzMljwvIt3jWM/cYws8ndvYmRkmkyTaTJNpsl0bzMy2uleZWQyeZdWjEwW71KWkUngXfoxMim8S1NG1gnvioSRoelVfkz9Asd/+4z/gpwUaCb5fEvAjjDNTrXaMs77k3xehgbXO7VT/ePRsP4UzK/Gzcg64V3SGVm/D7tCwljgDzkc/xuCkbk1OF69jHc1Go1SX19foWnbUWjOGZmjsc80zE/cjKwT3qUnI1Pu3ZsYGZkm02SaTJNpMp0MRkY7rXH0+/Cu95CvIE/DcihHA++5WmikMLJu8q7IGZkkdqUXI5PGrnRmZDHwLnUYWYy8Sz1GFhPvUouRxcS71GJkMfGu7jKyxLyRESMj02SaTJNpMk2myTSZVomR6ci7pDAy3XhXR4wM37014F1yGRn+fy4teJdkRqYy74qGkSnOuyJlZCrzrsgYmcq8KzJGpjLvks7I/gswAHjmEHimRdrrAAAAAElFTkSuQmCC) no-repeat 0 0;
+$hc-count-color:				$color_link;
+
+
+
+
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Background for the dropdown menu.
+$dropdown-bg:                    #fff !default;
+//** Dropdown menu `border-color`.
+$dropdown-border:                rgba(0,0,0,.15) !default;
+//** Dropdown menu `border-color` **for IE8**.
+$dropdown-fallback-border:       #ccc !default;
+//** Divider color for between dropdown items.
+$dropdown-divider-bg:            #e5e5e5 !default;
+
+//** Dropdown link text color.
+$dropdown-link-color:            $font_color_3 !default;
+//** Hover color for dropdown links.
+$dropdown-link-hover-color:      #FFF;
+//** Hover background for dropdown links.
+$dropdown-link-hover-bg:         #f5f5f5 !default;
+
+//** Active dropdown menu item text color.
+$dropdown-link-active-color:     #000 !default;
+//** Active dropdown menu item background color.
+$dropdown-link-active-bg:        #FFF !default;
+
+//** Disabled dropdown menu item background color.
+$dropdown-link-disabled-color:   $font_color_5 !default;
+
+//** Text color for headers within dropdown menus.
+$dropdown-header-color:          $font_color_5 !default;
+
+//** Deprecated `$dropdown-caret-color` as of v3.1.0
+$dropdown-caret-color:           #000 !default;

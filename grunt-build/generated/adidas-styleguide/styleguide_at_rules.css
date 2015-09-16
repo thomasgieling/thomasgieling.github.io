@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'adiNeueRegular';
+  src: url("fonts/adiNeueRegular.eot");
+  src: url("fonts/adiNeueRegular.eot?") format("eot"), url("fonts/adiNeueRegular.woff") format("woff"), url("fonts/adiNeueRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'adiNeueBold';
+  src: url("fonts/adiNeueBold.eot");
+  src: url("fonts/adiNeueBold.eot?") format("eot"), url("fonts/adiNeueBold.woff") format("woff"), url("fonts/adiNeueBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'adiHausRegular';
+  src: url("fonts/adihausregular.eot");
+  src: url("fonts/adihausregular.eot?") format("eot"), url("fonts/adihausregular.woff") format("woff"), url("fonts/adihausregular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'adiHausBold';
+  src: url("fonts/adihausbold.eot");
+  src: url("fonts/adihausbold.eot?") format("eot"), url("fonts/adihausbold.woff") format("woff"), url("fonts/adihausbold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'icomoonregular';
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?") format("eot"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype");
+}

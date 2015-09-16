@@ -1,0 +1,154 @@
+/*
+Header & Footer
+
+Header and footer
+
+Styleguide 3
+*/
+
+/*
+Header navigation bar
+
+The header navigation of the site
+
+Markup:
+<div class="container">
+	<header>
+		<nav>
+			<ul>
+				<li class="logo"><a href="http://www.adidas.com"></a></li>
+				<li class="nav-item">Men</li>
+				<li class="nav-item">Women</li>
+				<li class="nav-item">Kids</li>
+				<li class="divider"></li>
+				<li class="nav-item">Sports</li>
+				<li class="nav-item">Brands</li>
+				<li class="divider"></li>
+				<li class="nav-item">Design your own</li>
+				<li class="nav-item">micoach</li>
+				<li class="search"><a href="">Search</a></li>
+				<li class="cart"></li>
+				<li class="account"></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+
+Styleguide 3.1
+
+*/
+header {
+	width:100%;
+	height: 48px;
+	background-color:#000;
+}
+nav {
+	width:950px;
+	margin:0 auto;
+	ul {
+		list-style: none;
+		margin:0;
+		padding:0;
+	}
+	li {
+		display:inline-block;
+	}
+
+	li.nav-item {
+		line-height: 42px;
+	    height: 45px;
+	    text-align: center;
+	    cursor: pointer;
+	    color: #fff;
+	    padding: 1px 5px 0;
+	    letter-spacing: 1px;
+	    vertical-align: top;
+	    margin-top:3px;
+	    font-family: $adiNeueBold;
+	    font-size: 0.938em;
+
+	    &:hover, .active {
+	    	background-color:#FFF;
+	    	color:#000;
+	    }
+	}
+
+	li.divider {
+    	width:1px;
+    	margin:12px 5px;
+    	background-color:rgba(255,255,255,0.25);
+    	height:24px;
+	}
+
+	li.logo  {
+		margin-right:20px;
+		a{
+			background:url(data:image/png;base64,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) no-repeat 0 13px;
+			width: 156px;
+			height:48px;
+			display: block;
+		}
+	}
+	li.cart, li.account {
+		line-height: 42px;
+	    height: 45px;
+	    margin-top: 3px;
+	    vertical-align: top;
+	    padding: 0 6px;
+	    cursor: pointer;
+	    color:#FFF;
+
+	    &:hover, .active {
+	    	background-color:#FFF;
+	    	color:#000;
+	    }
+	}
+	li.cart:after {
+		font-family: $icomoon;
+		content: "\e632";
+		font-size: 1.5em;
+	}
+
+	li.account:after {
+		font-family: $icomoon;
+		content: "\e019";
+		font-size:1.5em;
+	}
+	li.search {
+		vertical-align: top;
+		a {
+	        background: #fff;
+		    color: #000;
+		    cursor: pointer;
+		    display: inline-block;
+		    min-width: 96px;
+		    height: 32px;
+		    line-height: 33px;
+		    padding: 0 6px 0 32px;
+		    text-align: center;
+		    margin: 8px;
+			position: relative;
+			font-family: $default-font;
+			font-size:0.813em;
+
+			&:hover {
+				background-color: $color_link;
+				color:#FFF;
+			}
+
+		    &:before {
+		    	width: 20px;
+			    height: 18px;
+			    display: block;
+			    content: "\e625";
+			    position: absolute;
+			    left: 8px;
+			    top: 6px;
+			    font-family: $icomoon;
+			    speak: none;
+			    font-size: 20px;
+			    line-height: 1;
+		    }
+		}
+	}
+}

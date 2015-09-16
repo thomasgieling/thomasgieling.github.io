@@ -1,0 +1,475 @@
+/*
+Header & Footer
+
+Header and footer
+
+Styleguide 3
+*/
+
+/*
+Header navigation bar
+
+The header navigation of the site
+
+Markup:
+<div class="container-fluid">
+	<header>
+		<nav>
+			<ul>
+				<li class="logo"><a href="http://www.adidas.com"></a></li>
+				<li class="nav-item">
+					Men
+					<div id="subnav-men" class="subnav inactive">
+						<div class="container">
+							<div class="col-5">
+								<h4><a href="http://www.adidas.co.uk/men?grid=true">Featured</a></h4>
+								<ul>
+									<li><a href="http://www.adidas.co.uk/men?prefn1=onlineFrom&prefv1=-30&srule=newest-to-oldest">New arrivals</a></li>
+									<li><a href="/men?grid=true&srule=top-rated">Top Rated</a></li>
+									<li><a href="http://www.adidas.co.uk/men-outlet">Outlet - Up to 50% off</a></li>
+									<li><a href="http://www.adidas.co.uk/men-superstar">Superstar</a></li>
+									<li><a href="/men-stan_smith">Stan Smith</a></li>
+									<li><a href="http://www.adidas.co.uk/men-zx_flux">ZX Flux</a></li>
+									<li><a href="/clubs">New football kits and jerseys</a></li>
+									<li><a href="/manchester_united">Manchester United #bethedifference</a></li>
+									<li><a href="/mi-man-utd-zx-flux/4001577_M.html?pr=CUSTOMIZE_IMG_mi%2520MAN%2520UTD%2520ZX%2520FLUX#is_configurator">Manchester United - mi ZX Flux</a></li>
+								</ul>
+							</div>
+							<div class="col-5">
+								<h4><a href="http://www.adidas.co.uk/men-shoes">Shoes</a></h4>
+								<ul>
+									<li><a href="http://www.adidas.co.uk/men-originals-shoes">Originals</a></li>
+									<li><a href="http://www.adidas.co.uk/men-football-shoes">Football</a></li>
+									<li><a href="/running-shoes">Running</a></li>
+									<li><a href="http://www.adidas.co.uk/men-adidas_neo-shoes">adidas NEO</a></li>
+									<li><a href="http://www.adidas.co.uk/men-outdoor-shoes">Outdoor</a></li>
+									<li><a href="http://www.adidas.co.uk/men-training-shoes">Training</a></li>
+									<li><a href="http://www.adidas.co.uk/men-tennis-shoes">Tennis</a></li>
+									<li><a href="http://www.adidas.co.uk/men-sandals_flip_flops">Sandals & Flip Flops</a></li>
+									<li><a href="http://www.adidas.co.uk/men-basketball-shoes">Basketball</a></li>
+									<li><a href="http://www.adidas.co.uk/customise-shoes?prefn1=gender&amp;prefv1=Men">Design your own</a></li>
+								</ul>
+							</div>
+							<div class="col-5">
+								<h4><a href="http://www.adidas.co.uk/men-clothing">Clothing</a></h4>
+								<ul>
+									<li><a href="http://www.adidas.co.uk/men-shorts">Shorts</a></li>
+									<li><a href="http://www.adidas.co.uk/men-hoodies_track_tops">Hoodies & Track tops</a></li>
+									<li><a href="http://www.adidas.co.uk/men-sweatpants_tights">Pants & Tights</a></li>
+									<li><a href="http://www.adidas.co.uk/men-jackets">Jackets</a></li>
+									<li><a href="http://www.adidas.co.uk/men-tracksuits">Tracksuits</a></li>
+									<li><a href="http://www.adidas.co.uk/men-shirts">T-Shirts & Polos</a></li>
+									<li><a href="http://www.adidas.co.uk/men-sweatshirts">Sweatshirts</a></li>
+									<li><a href="http://www.adidas.co.uk/men-swimwear">Swimwear</a></li>
+									<li><a href="http://www.adidas.co.uk/men-football-jerseys-clothing">Football Jerseys</a></li>
+									<li><a href="http://www.adidas.co.uk/men-training-clothing">Training</a></li>
+								</ul>
+							</div>
+							<div class="col-5">
+								<h4><a href="http://www.adidas.co.uk/men-accessories">Accessories</a></h4>
+								<ul>
+									<li><a href="http://www.adidas.co.uk/men-bags">Bags</a></li>
+									<li><a href="http://www.adidas.co.uk/men-backpacks">Backpacks</a></li>
+									<li><a href="http://www.adidas.co.uk/men-football-gloves">Goalkeeper Gloves</a></li>
+									<li><a href="http://www.adidas.co.uk/men-hats">Hats</a></li>
+									<li><a href="http://www.adidas.co.uk/men-socks">Socks</a></li>
+									<li><a href="http://www.adidas.co.uk/men-watches">Watches</a></li>
+									<li><a href="http://www.adidas.co.uk/men-balls">Balls</a></li>
+									<li><a href="http://www.adidas.co.uk/men-shin_guards">Shinguards</a></li>
+									<li><a href="/sunglasses">Sunglasses</a></li>
+									<li><a href="http://www.adidas.co.uk/accessories-micoach">miCoach</a></li>
+								 </ul>
+							</div>
+							<div class="col-5">
+								<h4><a href="http://www.adidas.co.uk/men-performance">Sports</a></h4>
+								<ul>
+									<li><a href="http://www.adidas.co.uk/men-football">Football</a></li>
+									<li><a href="http://www.adidas.co.uk/men-running">Running</a></li>
+									<li><a href="http://www.adidas.co.uk/men-training">Training</a></li>
+									<li><a href="http://www.adidas.co.uk/men-basketball">Basketball</a></li>
+									<li><a href="http://www.adidas.co.uk/men-outdoor">Outdoor</a></li>
+									<li><a href="http://www.adidas.co.uk/men-golf">Golf</a></li>
+									<li><a href="http://www.adidas.co.uk/men-tennis">Tennis</a></li>
+									<li><a href="http://www.adidas.co.uk/men-swimming">Swimming</a></li>
+									<li><a href="http://www.adidas.co.uk/men-porsche_design_sport_by_adidas">Porsche Design Sport by adidas</a></li>
+								 </ul>
+							</div>
+							<div class="bottom-line clearfix">
+								<div class="col-5"><a href="http://www.adidas.co.uk/men?grid=true"><strong>All men's</strong></a></div>
+								<div class="col-5"><a href="http://www.adidas.co.uk/men-shoes"><strong>All men's shoes</strong></a></div>
+								<div class="col-5"><a href="http://www.adidas.co.uk/men-clothing"><strong>All men's clothing</strong></a></div>
+								<div class="col-5"><a href="http://www.adidas.co.uk/men-accessories"><strong>All men's accessories</strong></a></div>
+								<div class="col-5"><a href="http://www.adidas.co.uk/men-performance"><strong>All men's sports</strong></a></div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">Women</li>
+				<li class="nav-item">Kids</li>
+				<li class="divider"></li>
+				<li class="nav-item">Sports</li>
+				<li class="nav-item">Brands</li>
+				<li class="divider"></li>
+				<li class="nav-item">Design your own</li>
+				<li class="nav-item">micoach</li>
+				<li class="search"><a href="">Search</a></li>
+				<li class="cart"></li>
+				<li class="account"></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+
+Styleguide 3.1
+
+*/
+header {
+	width:100%;
+	height: 48px;
+	background-color:#000;
+	position:fixed;
+	z-index:$zindex-header;
+}
+nav {
+	width:950px;
+	margin:0 auto;
+	ul {
+		list-style: none;
+		margin:0;
+		padding:0;
+	}
+	> ul > li {
+		display:inline-block;
+	}
+
+	li.nav-item {
+		line-height: 42px;
+	    height: 45px;
+	    text-align: center;
+	    cursor: pointer;
+	    color: #fff;
+	    padding: 1px 5px 0;
+	    letter-spacing: 1px;
+	    vertical-align: top;
+	    margin-top:3px;
+	    font-family: $adiNeueBold;
+	    font-size: 0.938em;
+
+	    &:hover, .active {
+	    	background-color:#FFF;
+	    	color:#000;
+
+	    	.subnav {
+	    		top:48px;
+	    	}
+	    }
+	}
+
+	li.divider {
+    	width:1px;
+    	margin:12px 5px;
+    	background-color:rgba(255,255,255,0.25);
+    	height:24px;
+	}
+
+	li.logo  {
+		margin-right:20px;
+		a{
+			background:url(data:image/png;base64,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) no-repeat 0 13px;
+			width: 156px;
+			height:48px;
+			display: block;
+		}
+	}
+	li.cart, li.account {
+		line-height: 42px;
+	    height: 45px;
+	    margin-top: 3px;
+	    vertical-align: top;
+	    padding: 0 6px;
+	    cursor: pointer;
+	    color:#FFF;
+
+	    &:hover, .active {
+	    	background-color:#FFF;
+	    	color:#000;
+	    }
+	}
+	li.cart:after {
+		font-family: $icomoon;
+		content: "\e632";
+		font-size: 1.5em;
+	}
+
+	li.account:after {
+		font-family: $icomoon;
+		content: "\e019";
+		font-size:1.5em;
+	}
+	li.search {
+		vertical-align: top;
+		a {
+	        background: #fff;
+		    color: #000;
+		    cursor: pointer;
+		    display: inline-block;
+		    min-width: 96px;
+		    height: 32px;
+		    line-height: 33px;
+		    padding: 0 6px 0 32px;
+		    text-align: center;
+		    margin: 8px;
+			position: relative;
+			font-family: $default-font;
+			font-size:0.813em;
+
+			&:hover {
+				background-color: $color_link;
+				color:#FFF;
+			}
+
+		    &:before {
+		    	width: 20px;
+			    height: 18px;
+			    display: block;
+			    content: "\e625";
+			    position: absolute;
+			    left: 8px;
+			    top: 6px;
+			    font-family: $icomoon;
+			    speak: none;
+			    font-size: 20px;
+			    line-height: 1;
+		    }
+		}
+	}
+	.subnav {
+		background-color:#FFF;
+		transition-delay: 0.15s;
+		@include reset-text();
+		position: absolute;
+		width: 100%;
+		left:0;
+		font-size: 16px;
+		top: -5000em;
+
+		ul li a, .bottom-line a {
+			font-size: $font-size-base;
+			color: $default-font-color;
+			line-height: $line-height-base;
+		}
+		.bottom-line {
+			clear:both;
+			margin-bottom: 20px;
+
+			.col-5:before {
+			    content: " ";
+			    display: block;
+			    height: 1px;
+			    width: 100%;
+			    overflow: hidden;
+			    background: #ccc;
+			    margin: 0 0 10px;
+			}
+		}
+		h4 {
+			margin:1em 0 0.5em;
+		}
+		&:after {
+		    content: " ";
+		    display: block;
+		    width: 100%;
+		    height: 7px;
+		    overflow: hidden;
+		    background: rgba(0,0,0,0.25);
+		    border-width: 0 0 1px 0;
+		    border-style: solid;
+		    border-color: rgba(0,0,0,0.5);
+		}
+	}
+}
+
+/*
+Footer
+
+The footer navigation of the site
+
+Markup:
+	<footer>
+		<div class="signupbar-wrapper clearfix">
+			<div class="signupbar">
+				<div class="pull-left"><label for="signupandsave">Sign up and <span class="highlight">save  15%</span></label></div>
+				<div class="pull-right">
+					<input type="text" name="signupandsave" id="signupandsave" placeholder="your email address" class="text-input">
+					<input type="submit" class="button">
+				</div>
+			</div>
+		</div>
+		<div class="linkfarm">
+			<ul class="col-md-3">
+				<li><h4>Producten</h4></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/schoenen" manual_cm_sp="footer-_-producten-_-schoenen">Schoenen</a></li>
+				<li><a href="http://www.adidas.nl/kleding" manual_cm_sp="footer-_-producten-_-kleding">Kleding</a></li>
+				<li><a href="http://www.adidas.nl/accessoires" manual_cm_sp="footer-_-producten-_-accessoires">Accessoires</a></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/search?pmin=0&amp;srule=newest-to-oldest&amp;pmax=999" manual_cm_sp="footer-_-producten-_-nieuwe producten">Nieuwe Producten</a></li>
+				<li><a href="http://www.adidas.nl/outlet" manual_cm_sp="footer-_-producten-_-outlet">Outlet</a></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/sweaters" manual_cm_sp="footer-_-producten-_-sweaters">Sweaters</a></li>
+				<li><a href="http://www.adidas.nl/leggings" manual_cm_sp="footer-_-producten-_-leggings">Leggings</a></li>
+				<li><a href="http://www.adidas.nl/trainingspakken" manual_cm_sp="footer-_-producten-_-trainingspakken">Trainingspakken</a></li>
+				<li><a href="http://www.adidas.nl/shirts" manual_cm_sp="footer-_-producten-_-t-shirts">T-shirts</a></li>
+				<li><a href="http://www.adidas.nl/broeken" manual_cm_sp="footer-_-producten-_-broeken">Broeken</a></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/performance-kleding" manual_cm_sp="footer-_-producten-_-sportkleding">Sportkleding</a></li>
+				<li><a href="http://www.adidas.nl/performance-schoenen" manual_cm_sp="footer-_-producten-_-sportschoenen">Sportschoenen</a></li>
+				<li><a href="http://www.adidas.nl/performance-tassen" manual_cm_sp="footer-_-producten-_-sporttassen">Sporttassen</a></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/ajax_amsterdam" manual_cm_sp="footer-_-producten-_-ajax amsterdam">Ajax Amsterdam</a></li>
+				<li><a href="http://www.adidas.nl/fc_bayern_munchen" manual_cm_sp="footer-_-producten-_-fc bayern münchen">FC Bayern München</a></li>
+				<li><a href="http://www.adidas.nl/real_madrid" manual_cm_sp="footer-_-producten-_-real madrid">Real Madrid</a></li>
+				<li><a href="http://www.adidas.nl/juventus" manual_cm_sp="footer-_-producten-_-juventus">Juventus</a></li>
+				<li><a href="http://www.adidas.nl/chelsea_fc" manual_cm_sp="footer-_-producten-_-chelsea">Chelsea</a></li>
+				<li><a href="" manual_cm_sp="footer-_-producten-_-"></a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="col-md-3">
+				<li><h4>SPORTEN</h4></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/voetbal-schoenen" manual_cm_sp="footer-_-sporten-_-voetbalschoenen">Voetbalschoenen</a></li>
+				<li><a href="http://www.adidas.nl/turfschoen" manual_cm_sp="footer-_-sporten-_-turfschoen">Turfschoen</a></li>
+				<li><a href="http://www.adidas.nl/x" manual_cm_sp="footer-_-sporten-_-adidas x">adidas X</a></li>
+				<li><a href="http://www.adidas.nl/ace" manual_cm_sp="footer-_-sporten-_-adidas ace">adidas Ace</a></li>
+				<li><a href="http://www.adidas.nl/copa_mundial" manual_cm_sp="footer-_-sporten-_-copa mundial">Copa Mundial</a></li>
+				<li><a href="http://www.adidas.nl/kinderen-voetbal-schoenen" manual_cm_sp="footer-_-sporten-_-voetbalschoenen kinderen">Voetbalschoenen Kinderen</a></li>
+				<li><a href="http://www.adidas.nl/hardlopen-schoenen-terrein" manual_cm_sp="footer-_-sporten-_-trailrunning schoenen">Trailrunning Schoenen</a></li>
+				<li><a href="http://www.adidas.nl/predator" manual_cm_sp="footer-_-sporten-_-predator">Predator</a></li>
+				<li><a href="http://www.adidas.nl/adizero_f50" manual_cm_sp="footer-_-sporten-_-f50">F50</a></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/boost" manual_cm_sp="footer-_-sporten-_-boost">Boost</a></li>
+				<li><a href="http://www.adidas.nl/ultra_boost" manual_cm_sp="footer-_-sporten-_-ultra boost">Ultra Boost</a></li>
+				<li><a href="http://www.adidas.nl/springblade" manual_cm_sp="footer-_-sporten-_-springblade">Springblade</a></li>
+				<li><a href="http://www.adidas.nl/supernova" manual_cm_sp="footer-_-sporten-_-supernova">Supernova</a></li>
+				<li><a href="http://www.adidas.nl/climachill" manual_cm_sp="footer-_-sporten-_-climachill">Climachill</a></li>
+				<li><a href="http://www.adidas.nl/basketbal-schoenen" manual_cm_sp="footer-_-sporten-_-basketbalschoenen">Basketbalschoenen</a></li>
+				<li><a href="http://www.adidas.nl/golf-kleding" manual_cm_sp="footer-_-sporten-_-golfkleding">Golfkleding</a></li>
+				<li><a href="http://www.adidas.nl/tennis-kleding" manual_cm_sp="footer-_-sporten-_-tenniskleding">Tenniskleding</a></li>
+				<li><a href="http://www.adidas.nl/tennis-schoenen" manual_cm_sp="footer-_-sporten-_-tennisschoenen">Tennisschoenen</a></li>
+				<li><a href="http://www.adidas.nl/hardlopen-kleding" manual_cm_sp="footer-_-sporten-_-hardloopkleding">Hardloopkleding</a></li>
+				<li><a href="http://www.adidas.nl/teamkleding" manual_cm_sp="footer-_-sporten-_-teamkleding">Teamkleding</a></li>
+				<li><a href="" manual_cm_sp="footer-_-sporten-_-"></a></li>
+				<li>&nbsp;</li>
+			</ul>
+			<ul class="col-md-3">
+				<li><h4>Collections</h4></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/pharrell" manual_cm_sp="footer-_-collections-_-adidas = pharrell williams">adidas = Pharrell Williams</a></li>
+				<li><a href="http://www.adidas.nl/originals_by_rita_ora" manual_cm_sp="footer-_-collections-_-originals x rita ora">Originals x Rita Ora</a></li>
+				<li><a href="http://www.adidas.nl/originals_by_nigo" manual_cm_sp="footer-_-collections-_-originals x nigo">Originals x Nigo</a></li>
+				<li><a href="http://www.adidas.nl/farm" manual_cm_sp="footer-_-collections-_-originals x farm">Originals x Farm</a></li>
+				<li><a href="http://www.adidas.nl/topshop" manual_cm_sp="footer-_-collections-_-originals x topshop">Originals x Topshop</a></li>
+				<li><a href="http://www.adidas.nl/stellasport" manual_cm_sp="footer-_-collections-_-adidas stellasport">adidas StellaSport</a></li>
+				<li><a href="http://www.adidas.nl/yeezy" manual_cm_sp="footer-_-collections-_-yeezy">Yeezy</a></li>
+				<li><a href="http://www.adidas.nl/supercolor" manual_cm_sp="footer-_-collections-_-supercolor">Supercolor</a></li>
+				<li><a href="http://www.y-3.com" manual_cm_sp="footer-_-collections-_-y-3">Y-3</a></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas.nl/zx_flux" manual_cm_sp="footer-_-collections-_-zx flux">ZX Flux</a></li>
+				<li><a href="http://www.adidas.nl/stan_smith" manual_cm_sp="footer-_-collections-_-stan smith">Stan Smith</a></li>
+				<li><a href="http://www.adidas.nl/gazelle" manual_cm_sp="footer-_-collections-_-gazelle">Gazelle</a></li>
+				<li><a href="http://www.adidas.nl/samba" manual_cm_sp="footer-_-collections-_-samba">Samba</a></li>
+				<li><a href="http://www.adidas.nl/la_trainer" manual_cm_sp="footer-_-collections-_-la trainer">LA Trainer</a></li>
+				<li><a href="http://www.adidas.nl/superstar" manual_cm_sp="footer-_-collections-_-superstar">Superstar</a></li>
+				<li><a href="http://www.adidas.nl/zx" manual_cm_sp="footer-_-collections-_-zx">ZX</a></li>
+				<li><a href="http://www.adidas.nl/spezial" manual_cm_sp="footer-_-collections-_-spezial">Spezial</a></li>
+				<li><a href="http://www.adidas.nl/dragon" manual_cm_sp="footer-_-collections-_-dragon">Dragon</a></li>
+				<li><a href="http://www.adidas.nl/firebird" manual_cm_sp="footer-_-collections-_-firebird">Firebird</a></li>
+				<li><a href="http://www.adidas.nl/tubular" manual_cm_sp="footer-_-collections-_-tubular">Tubular</a></li>
+				<li><a href="" manual_cm_sp="footer-_-collections-_-"></a></li>
+			    <li>&nbsp;</li>
+		    </ul>
+			<ul class="col-md-3">
+				<li><h4>BEDRIJFSGEGEVENS</h4></li>
+				<li>&nbsp;</li>
+				<li><a href="http://www.adidas-group.com/en/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-over ons">Over ons</a></li>
+				<li><a href="http://careers.adidas-group.com/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-vacatures">Vacatures</a></li>
+				<li><a href="http://news.adidas.com/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-pers">Pers</a></li>
+				<li>&nbsp;</li>
+				<li><h4>Services</h4></li>
+				<li><a href="http://www.adidas.nl/personaliseren" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-mi adidas">mi adidas</a></li>
+				<li><a href="http://www.miteam.adidas.nl/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-mi team">mi team</a></li>
+				<li><a href="http://www.adidas.nl/naam_nummer_toevoegen" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-personaliseren">Personaliseren</a></li>
+				<li><a href="http://www.adidas.nl/micoach" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-micoach">miCoach</a></li>
+				<li>&nbsp;</li>
+				<li><h4>More adidas</h4></li>
+				<li><a href="http://www.adidasbodycare.com/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-body care">Body Care</a></li>
+				<li><a href="http://discover.adidas.nl/pages/sites/eyewear/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-eyewear">Eyewear</a></li>
+				<li><a href="http://www.adidas.nl/horloges" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-horloges">Horloges</a></li>
+				<li><a href="http://www.adidasspecialtysports.nl/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-adidas specialty sports">adidas specialty sports</a></li>
+				<li><a href="https://adidashardware.com/" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-trainingsapparatuur">Trainingsapparatuur</a></li>
+				<li><a href="" manual_cm_sp="footer-_-bedrijfsgegevensservicesmore adidas-_-"></a></li>
+			    <li>&nbsp;</li>
+		    </ul>
+			<ul class="col-md-3">
+				<li><h4>SUPPORT</h4></li>
+				<li>&nbsp;</li>
+				<li><a href="http://discover.adidas.nl/storefinder/#/" manual_cm_sp="footer-_-support-_-winkel zoeken">Winkel zoeken</a></li>
+				<li><a href="http://www.adidas.nl/help" manual_cm_sp="footer-_-support-_-klantenservice">Klantenservice</a></li>
+				<li><a href="http://www.adidas.nl/help/artikelen.html" manual_cm_sp="footer-_-support-_-onze artikelen">Onze artikelen</a></li>
+				<li><a href="http://www.adidas.nl/help/bestellen.html" manual_cm_sp="footer-_-support-_-bestellen">Bestellen</a></li>
+				<li><a href="http://www.adidas.nl/help/acties-vouchers.html" manual_cm_sp="footer-_-support-_-aanbiedingen, acties en vouchers">Aanbiedingen, acties en vouchers</a></li>
+				<li><a href="http://www.adidas.nl/help/betalen.html" manual_cm_sp="footer-_-support-_-betalen">Betalen</a></li>
+				<li><a href="http://www.adidas.nl/help/bezorging.html" manual_cm_sp="footer-_-support-_-bezorging">Bezorging</a></li>
+				<li><a href="http://www.adidas.nl/help/retourneren.html" manual_cm_sp="footer-_-support-_-retouren en terugbetaling">Retouren en terugbetaling</a></li>
+				<li><a href="http://www.adidas.nl/help/account.html" manual_cm_sp="footer-_-support-_-je account">Je account</a></li>
+				<li><a href="http://www.adidas.nl/help/nieuwsbrieven.html" manual_cm_sp="footer-_-support-_-nieuwsbrieven">Nieuwsbrieven</a></li>
+				<li><a href="http://www.adidas.nl/help/adidas-group.html" manual_cm_sp="footer-_-support-_-de adidas group">De adidas Group</a></li>
+				<li><a href="http://www.adidas.nl/bestelling-volgen" manual_cm_sp="footer-_-support-_-bestellingsstatus">bestellingsstatus</a></li>
+				<li><a href="http://www.adidas.nl/aanbiedingen" manual_cm_sp="footer-_-support-_-aanbiedingen">Aanbiedingen</a></li>
+				<li><a href="http://www.adidas.com/campaigns/adidas_shop/content/giftcard/index.asp?strCountry_adidascom=nl&amp;strLanguage_adidascom=nl" target="_blank" manual_cm_sp="footer-_-support-_-gift cards">Gift Cards</a></li>
+				<li><a href="https://signup.performancehorizon.com/signup/nl/adidasgroup" manual_cm_sp="footer-_-support-_-affiliate programma">Affiliate Programma</a></li>
+			</ul></div>
+		</div>
+	</footer>
+
+Styleguide 3.2
+
+*/
+footer {
+
+	.signupbar-wrapper {
+		background-color: #000;
+		float:none;
+		position: relative;
+	}
+
+	.signupbar {
+		height:90px;
+		line-height:90px;
+		width: 950px;
+    	margin: 0 auto;
+
+		label {
+			font-size:1.375em;
+			color:#FFF;
+		}
+
+		.button {
+			line-height:20px;
+		}
+	}
+	.linkfarm {
+		width:950px;
+		margin:0 auto;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li a, li a:visited{
+		color: #000;
+		font-size:	0.813em;
+		line-height: 1.769em;
+	}
+}

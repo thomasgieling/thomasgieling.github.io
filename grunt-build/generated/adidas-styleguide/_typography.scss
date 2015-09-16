@@ -1,0 +1,368 @@
+.wrapper {
+	font-family: $default-font;
+	line-height: 1.5em;
+	margin:1em;
+}
+/*
+Typography
+
+Titles and headlines are used to emphasize content in the page. They should be used as headlines meaning that they should be used to denote the main element of a segment in the page.
+Titles and headlines can be applied using the classes that represent them or using the h1 through h6 tags
+
+Styleguide 1
+*/
+
+/*
+Headlines
+
+The Super title is used in mastheads and other callouts that should not be indexed as an h1 but should have a higher focus.
+H1 through H6 are used in the site to denote important pages that have value for SEO.
+
+.title-super		- The largest title in the site, used for mastheads
+.h1					- The h1 tags in the site
+.h2					- The h2 tags in the site
+.h3					- The h3 tags in the site
+.h4					- The h4 tags in the site
+.h5					- The h5 tags in the site
+.h6					- The h6 tags in the site
+
+Markup:
+<div class="wrapper">
+	<span class="{$modifiers}">{$modifiers} Lorem Ipsum <a href="#">asd</a></span>
+</div>
+
+Styleguide 1.1
+*/
+
+.title-super {
+	font-family: $title-super-font;
+	font-size: $title-super-font-size;
+	line-height: $title-super-line-height;
+	color: $title-super-font-color;
+}
+.h1, h1 {
+	font-family: $h1-font;
+	color: $h1-font-color;
+	font-size: $h1-font-size;
+	line-height:$h1-line-height;
+}
+.h2, h2 {
+	font-family: $h2-font;
+	color: $h2-font-color;
+	font-size: $h2-font-size;
+	line-height:$h2-line-height;
+}
+.h3, h3 {
+	font-family: $h3-font;
+	color: $h3-font-color;
+	font-size: $h3-font-size;
+	line-height:$h3-line-height;
+}
+.h4, h4 {
+	font-family: $h4-font;
+	color: $h4-font-color;
+	font-size: $h4-font-size;
+	line-height:$h4-line-height;
+}
+.h5, h5 {
+	font-family: $h5-font;
+	color: $h5-font-color;
+	font-size: $h5-font-size;
+	line-height:$h5-line-height;
+}
+.h6, h6 {
+	font-family: $h6-font;
+	color: $h6-font-color;
+	font-size: $h6-font-size;
+	line-height:$h6-line-height;
+	text-transform:uppercase;
+}
+
+
+/*
+Paragraphs and regular text
+
+Paragraphs are used in long bodies of text. The other text classes are used for the regular text types in the site.
+
+.normal				- The standard font throughout the site
+.paraintro			- The intro paragraph of a long text
+.paranormal			- The normal paragraph of a long text
+.parasmall			- The small print paragraph of a long text
+
+Markup:
+<div class="wrapper">
+	<p class="{$modifiers}">
+		{$modifiers}: Lorem ipsum. Duis sit amet feugiat lectus. Etiam imperdiet commodo rhoncus. 
+		Proin tincidunt rhoncus enim non rutrum. Aenean sed diam id. tellus porttitor vulputate. Curabitur blandit non neque. eget
+	</p>
+</div>
+
+Styleguide 1.2
+*/
+
+.normal, body {
+	font-family: $default-font;
+	color: $default-font-color;
+}
+
+.paraintro {
+	font-family: $paraintro-font;
+	font-size: $paraintro-font-size;
+	line-height: $paraintro-line-height;
+	margin: $paraintro-margin;
+	color: $paraintro-font-color;
+}
+
+.paranormal {
+	font-family: $paranormal-font;
+	font-size: $paranormal-font-size;
+	line-height: $paranormal-line-height;
+	margin: $paranormal-margin;
+	color: $paranormal-font-color;
+}
+.parasmall {
+	font-family: $parasmall-font;
+	font-size: $parasmall-font-size;
+	line-height: $parasmall-line-height;
+	margin: $parasmall-margin;
+	color: $parasmall-font-color;
+}
+
+/*
+Links
+
+Paragraphs are used in long bodies of text. The other text classes are used for the regular text types in the site.
+
+default 			- The default text size throughout the site if no style is applied
+.active				- The standard font throughout the site
+.hover				- The intro paragraph of a long text
+.visited			- The normal paragraph of a long text
+
+Markup:
+<div class="wrapper">
+	<p class="normal">
+		This is some text with a <a href="#" class="{$modifiers}">linked text</a> in there.
+	</p>
+</div>
+
+Styleguide 1.3
+*/
+
+a, .link {
+	color:$color_link;
+	text-decoration:$link-text-decoration;
+
+	&:visited, &.visited {
+		color: $color_link_visited;
+		text-decoration:$link-visited-text-decoration;
+	}
+	&:active, &.active{
+		color: $color_link_active;
+		text-decoration:$link-avtive-text-decoration;
+	}
+	&:hover, &.hover {
+		color: $color_link_hover;
+		text-decoration:$link-hover-text-decoration;
+	}
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .title-super {
+	& a {
+		text-decoration:none;
+		color:inherit;
+	}
+}
+
+/*
+Tooltips
+
+Tooltips are short messages that show when a piece of text is hovered over.
+For tooltips we use bootstrap's tooltip. For a JS specification please refer to the <a href="http://getbootstrap.com/javascript/#tooltips">bootstrap documentation</a>
+
+.top			- Show tooltip at the top
+.right			- Show tooltip at the right
+.bottom			- Show tooltip at the bottom
+.left			- Show tooltip at the left
+
+Markup:
+<div class="wrapper">
+	<p class="normal">Tight pants next level keffiyeh <a href="#" data-toggle="tooltip" title="" data-placement="{$modifiers}" data-original-title="Default tooltip" class="link">you probably</a> haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american apparel <a href="#" data-toggle="tooltip" title="Another tooltip">have a</a> terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A really ironic artisan <a href="#" data-toggle="tooltip" title="Another one here too">whatever keytar</a>, scenester farm-to-table banksy Austin <a href="#" data-toggle="tooltip" title="The last tip!">twitter handle</a> freegan cred raw denim single-origin coffee viral.</p>
+</div>
+
+Styleguide 1.4
+*/
+
+
+/*
+Prices
+
+Prices are displayed differently based on the fact if there is a discounted or not.
+For prices ending in .00 we do not show the decimals and the decimal separator.
+
+Markup:
+<div class="wrapper">
+	Regular price:
+	<span class="price">
+		<span class="currency-sign currency-sign-discounted">€</span>
+		<span class="salesprice discount-price" id="salesprice-C77597">99.95</span>
+	</span>
+</div>
+<div class="wrapper">
+	Regular price:
+	<span class="price">
+		<span class="currency-symbol">€</span>
+		<span class="value" id="salesprice-C77597">100</span>
+	</span>
+</div>
+<div class="wrapper">
+	Discounted price:
+	<span class="price discount">
+		<span class="currency-symbol">€</span>
+		<span class="value" id="salesprice-C77597">70</span>
+	</span>
+</div>
+<div class="wrapper">
+	Original price:
+	<span class="price original">
+		<span class="currency-symbol">€</span>
+		<span class="value" id="salesprice-C77597">100</span>
+	</span>
+</div>
+<div class="wrapper">
+	Combined:
+	<span class="price discount">
+		<span class="currency-symbol">€</span>
+		<span class="value" id="salesprice-C77597">100</span>
+		<span class="price original">
+			<span class="currency-symbol">€</span>
+			<span class="value" id="salesprice-C77597">100</span>
+		</span>
+	</span>
+</div>
+
+Styleguide 1.5
+*/
+
+.price {
+	color: $price-color;
+	font-family:$price-font-family;
+	display:table;
+	
+	span {
+		display:table-cell;
+	}
+
+	.currency-symbol {
+		font-size: $currency-symbol-font-size;
+	}
+
+	&.discount {
+		color: $price-discounted-color;
+	}
+	&.original {
+		color: $price-original-color;
+		text-decoration: line-through;
+		font-size:$price-original-font-size;
+	}
+
+	.price {
+		padding-left:0.5em;
+	}
+}
+
+/*
+Product Badges
+
+The header navigation of the site
+
+.preorder		- Preorder badges
+.preview		- Preview product badges
+.soldout		- Soldout
+.exclusive		- Exclusive products
+.promotion		- Promotions
+.sale 			- Sale products
+.custom 		- custom badges
+.new 			- New products
+
+Markup:
+<div class="wrapper" style="height: 30px;">
+	<div class="badge {$modifiers}"><span class="badge-text">{$modifiers}</span></div>
+</div>
+
+Styleguide 1.6
+
+*/
+
+.badge {
+	height: $badge-height;
+	float:left;
+	position:absolute;
+
+	.badge-text {
+		line-height: $badge-line-height;
+		font-family: $badge-font-family;
+		font-size: $badge-font-size;
+		padding: $badge-padding;
+		text-transform: $badge-text-transform;
+	}
+
+	&:after {
+		border-top: $badge-after-border-top;
+		border-bottom: $badge-after-border-bottom;
+		border-left: $badge-after-border-left;
+		content:' ';
+		display: block;
+		position:absolute;
+		top: 0;
+		right: $badge-after-right;
+	}
+
+	&.preorder {
+		background: $badge-preorder-background;
+		&:after {
+			border-left-color: $badge-preorder-background;
+		}
+	}
+	&.preview {
+		background: $badge-preview-background;
+		&:after {
+			border-left-color: $badge-preview-background;
+		}
+	}
+	&.soldout {
+		background: $badge-soldout-background;
+		&:after {
+			border-left-color: $badge-soldout-background;
+		}
+	}
+	&.exclusive {
+		background: $badge-exclusive-background;
+		&:after {
+			border-left-color: $badge-exclusive-background;
+		}
+	}
+	&.promotion {
+		background: $badge-promotion-background;
+		&:after {
+			border-left-color: $badge-promotion-background;
+		}
+	}
+	&.sale {
+		background-color: $badge-sale-background;
+		&:after {
+			border-left-color: $badge-sale-background;
+		}
+	}
+	&.custom {
+		background-color: $badge-custom-background;
+		&:after {
+			border-left-color: $badge-custom-background;
+		}
+	}
+	&.new {
+		background: $badge-new-background;
+		&:after {
+			border-left-color: $badge-new-background;
+		}
+	}
+}
