@@ -24,7 +24,7 @@ module.exports = function(grunt) {
  
     gulp: {
       'styleguide-generate-adidas': function() {
-        var outputPath = 'generated/adidas-styleguide';
+        var outputPath = '../grunt-build/generated/adidas-styleguide';
         return gulp.src(['app/sass/foundation-adidas.scss', 'app/sass/components/adidas/*.scss', 'app/sass/components/shared/*.scss'])
           .pipe(styleguide.generate({
               title: 'adidas foundation styleguide',
@@ -32,6 +32,7 @@ module.exports = function(grunt) {
               port:4000,
               rootPath: outputPath,
               customColors: 'app/sc5-custom/custom-colors-adidas.scss',
+              appRoot: '/grunt-build/generated/adidas-styleguide',
               disableEncapsulation: true
             }))
           .pipe(gulp.dest(outputPath));

@@ -9,9 +9,9 @@
     (function() {
       'use strict';
       var userStyleFiles = [
-          '/styleguide.css',
-          '/styleguide_pseudo_styles.css',
-          '/css/styleguide_helper_elements.css'
+          '/grunt-build/generated/adidas-styleguide/styleguide.css',
+          '/grunt-build/generated/adidas-styleguide/styleguide_pseudo_styles.css',
+          '/grunt-build/generated/adidas-styleguide/css/styleguide_helper_elements.css'
         ],
         head = document.querySelector('head');
 
@@ -31,8 +31,8 @@
         userStyleFiles.forEach(addCssLink);
       }
 
-      addCssLink('/styleguide_at_rules.css');
-      addCssLink('/app.css', {noReload: true});
+      addCssLink('/grunt-build/generated/adidas-styleguide/styleguide_at_rules.css');
+      addCssLink('/grunt-build/generated/adidas-styleguide/app.css', {noReload: true});
     }());
   </script>
   <script type="text/ng-template" id="userStyles.html">
@@ -44,13 +44,13 @@
   </script>
   <title ng-bind-html="$root.pageTitle | unsafe">adidas foundation styleguide</title>
   
-  <base href="/" />
+  <base href="/grunt-build/generated/adidas-styleguide/" />
 </head>
 <body class="sg">
   <div class="sg view-index" ui-view></div>
   <script src="/grunt-build/generated/adidas-styleguide/js/vendor.js"></script>
   <script src="/grunt-build/generated/adidas-styleguide/js/app.js"></script>
-  <script src="/grunt-build/generated/adidas-styleguide/https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="/grunt-build/generated/adidas-styleguide/js/bootstrap.js"></script>
   <script src="/grunt-build/generated/adidas-styleguide/js/bootstrap-select.js"></script>
     <script src="/grunt-build/generated/adidas-styleguide/socket.io/socket.io.js"></script>
