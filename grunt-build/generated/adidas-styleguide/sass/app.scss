@@ -367,6 +367,8 @@ input.sg {
   padding: 0;
   color: rgba(#fff, 1);
   background: rgba($primary-color, 1);
+  height: initial;
+  position: relative;
 
   pre {
     clear: both;
@@ -561,6 +563,7 @@ input.sg {
   ul {
     z-index: 8000;
     list-style-type: none;
+    padding-left: 20px;
   }
   li:hover {
     // Button should still have background color when sub-menu item is hovered
@@ -655,6 +658,7 @@ input.sg {
   background-color: $section-header-color;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  position: relative;
 
   a {
     text-decoration: none;
@@ -800,6 +804,8 @@ input.sg {
 
 .sg.section {
   margin-bottom: 20px;
+  min-height: initial;
+  top:initial;
 
   .sg.section-partial {
     position: relative;

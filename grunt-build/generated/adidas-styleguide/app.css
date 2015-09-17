@@ -2165,7 +2165,9 @@ input.sg {
   width: 100%;
   padding: 0;
   color: white;
-  background: black; }
+  background: black;
+  height: initial;
+  position: relative; }
   .sg.header pre {
     clear: both; }
   .sg.header .inner {
@@ -2281,7 +2283,8 @@ input.sg {
       color: white; }
   .sg.top-nav-menu ul {
     z-index: 8000;
-    list-style-type: none; }
+    list-style-type: none;
+    padding-left: 20px; }
   .sg.top-nav-menu li:hover > a {
     color: black;
     background: white; }
@@ -2340,7 +2343,8 @@ input.sg {
   font-weight: 400;
   background-color: #000;
   border-top-left-radius: 5px;
-  border-top-right-radius: 5px; }
+  border-top-right-radius: 5px;
+  position: relative; }
   .sg.section-header a {
     text-decoration: none;
     display: block; }
@@ -2394,7 +2398,9 @@ input.sg {
   border: none; }
 
 .sg.section {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  min-height: initial;
+  top: initial; }
   .sg.section .sg.section-partial {
     position: relative;
     overflow: auto;

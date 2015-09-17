@@ -32,7 +32,7 @@ module.exports = function(grunt) {
               port:4000,
               rootPath: outputPath,
               customColors: 'app/sc5-custom/custom-colors-adidas.scss',
-              appRoot: '/grunt-build/generated/adidas-styleguide',
+//              appRoot: '/grunt-build/generated/adidas-styleguide',
               disableEncapsulation: true
             }))
           .pipe(gulp.dest(outputPath));
@@ -63,7 +63,6 @@ module.exports = function(grunt) {
     copy: {
       adidas: {
         files: [
-          { src: ['app/css/foundation-adidas.css'], dest: 'generated/adidas-styleguide/styleguide.css'},
           { cwd: 'app/sass/fonts/adidas', src: '**/*', dest: 'generated/adidas-styleguide/fonts', expand:true},
           { cwd: 'app/sass/fonts/adidas', src: '**/*', dest: 'app/css/fonts', expand:true},
           { cwd: 'app/js', src: '**/*', dest: 'generated/adidas-styleguide/js', expand:true}

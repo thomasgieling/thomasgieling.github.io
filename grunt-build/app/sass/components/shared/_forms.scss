@@ -227,6 +227,9 @@ select.selectpicker {
 	border-bottom:0px;
 	z-index: $zindex-select;
 }
+.bootstrap-select button .caret {
+	border:none;
+}
 .bootstrap-select button .caret:after {
 	color: $select-caret-color;
 	content: $select-cart-icon;
@@ -253,8 +256,25 @@ select.selectpicker {
   outline: 0;
 }
 
+.bootstrap-select .dropdown-menu {
+	position: relative;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: none;
+    min-width: 160px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1em;
+    text-align: left;
+    background-color: #fff;
+    border: none;
+}
+
 // The dropdown menu (ul)
-.dropdown-menu.open {
+.bootstrap-select .dropdown-menu.open {
   position: absolute;
   left: 0;
   z-index: 1000;
@@ -266,7 +286,7 @@ select.selectpicker {
   min-width: 100%;
   width:100%;
 }
-.dropdown-menu.inner {
+.bootstrap-select .dropdown-menu.inner {
 	list-style:none;
 	padding:0px;
 	margin:0;
@@ -297,7 +317,7 @@ select.selectpicker {
 		font-family: $select-option-header-font;
 	}
 }
-.open {
+.bootstrap-select.open {
   // Show the menu
   > .dropdown-menu {
     display: block;

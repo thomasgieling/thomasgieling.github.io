@@ -160,8 +160,8 @@ fieldset[disabled] .add-to-cart-button.pseudo-class-active {
   outline: 0;
 }
 
-.dropdown-menu.inner li a.pseudo-class-hover,
-.dropdown-menu.inner li a.pseudo-class-focus {
+.bootstrap-select .dropdown-menu.inner li a.pseudo-class-hover,
+.bootstrap-select .dropdown-menu.inner li a.pseudo-class-focus {
   border-bottom: solid 2px #025f8e;
   color: #025f8e;
   outline: 0;
