@@ -32,7 +32,7 @@ module.exports = function(grunt) {
               port:4000,
               rootPath: outputPath,
               customColors: 'app/sc5-custom/custom-colors-adidas.scss',
-//              appRoot: '/grunt-build/generated/adidas-styleguide',
+              appRoot: '/grunt-build/generated/adidas-styleguide',
               disableEncapsulation: true
             }))
           .pipe(gulp.dest(outputPath));
