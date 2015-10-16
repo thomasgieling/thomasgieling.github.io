@@ -29,6 +29,9 @@ $(document).ready(function() {
 			},
 			error: function(xhr, textStatus) {
 				$("#result").html(textStatus + "!");
+			},
+            beforeSend: function(xhr) { 
+				xhr.setRequestHeader("Authorization", "Basic " + btoa("storefront" + ":" + "vost0k")); 
 			}
 		});
 	});			
